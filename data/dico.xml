@@ -1,0 +1,189 @@
+<dico>
+	<word id="0">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="right" />
+		<declension number="plural" text="rights" />
+		<link type="antonym" id="1" />
+	</word>
+	<word id="1">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="wrong" />
+		<declension number="plural" text="wrongs" />
+		<link type="antonym" id="0" />
+	</word>
+	<word id="2">
+		<property type="nature" value="proper noun" />
+		<property type="class" value="city" />
+		<declension number="singular" text="Rome" />
+		<link type="demonym" id="3" />
+	</word>
+	<word id="3">
+		<property type="nature" value="proper noun" />
+		<property type="attribute" value="demonym" />
+		<declension number="singular" text="Roman" />
+		<declension number="plural" text="Romans" />
+		<link type="demonym of" id="2" />
+	</word>
+	<word id="4">
+		<property type="nature" value="proper noun" />
+		<property type="class" value="city" />
+		<declension number="singular" text="Paris" />
+		<link type="demonym" id="5" />
+	</word>
+	<word id="5">
+		<property type="nature" value="proper noun" />
+		<property type="attribute" value="demonym" />
+		<declension number="singular" text="Parisian" />
+		<declension number="plural" text="Parisians" />
+		<link type="demonym of" id="4" />
+	</word>
+	<word id="6">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="success" />
+		<declension number="plural" text="successes" />
+		<link type="antonym" id="7" />
+	</word>
+	<word id="7">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="failure" />
+		<declension number="plural" text="failures" />
+		<link type="antonym" id="6" />
+	</word>
+	<word id="8">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="way" />
+		<declension number="plural" text="ways" />
+		<link type="synonym" id="9" />
+		<link type="synonym" id="10" />
+	</word>
+	<word id="9">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="road" />
+		<declension number="plural" text="roads" />
+		<link type="synonym" id="8" />
+		<link type="synonym" id="10" />
+	</word>
+	<word id="10">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="avenue" />
+		<declension number="plural" text="avenues" />
+		<link type="synonym" id="8" />
+		<link type="synonym" id="9" />
+	</word>
+	<word id="11">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="pen" />
+		<declension number="plural" text="pens" />
+	</word>
+	<word id="12">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="sword" />
+		<declension number="plural" text="swords" />
+	</word>
+	<word id="13">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="mighty" />
+		<declension form="comparative" text="mightier" />
+		<declension form="superlative" text="mightiest" />
+		<link type="qualifies" id="12" />
+	</word>
+	<word id="14">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="clown" />
+		<declension number="plural" text="clowns" />
+	</word>
+	<word id="15">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="funny" />
+		<declension form="comparative" text="funnier" />
+		<declension form="superlative" text="funniest" />
+		<link type="qualifies" id="14" />
+	</word>
+	<word id="16">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="man" />
+		<declension number="plural" text="men" />
+	</word>
+	<word id="17">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="island" />
+		<declension number="plural" text="islands" />
+	</word>
+	<word id="18">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="+for" />
+		<declension tense="infinitive" text="be" />
+		<declension tense="present" person="1" text="am" />
+		<declension tense="present" person="2" text="are" />
+		<declension tense="past" person="1" text="was" />
+		<declension tense="past" person="2" text="were" />
+		<declension tense="participle" text="been" />
+	</word>	
+	<word id="19">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="+for" />
+		<declension tense="infinitive" text="hope" />
+		<declension tense="present" text="hope" />
+		<declension tense="past" text="hoped" />
+		<declension tense="participle" text="hoped" />
+		<link type="synonym" id="20" />
+	</word>
+	<word id="20">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="+for" />
+		<declension tense="infinitive" text="prepare" />
+		<declension tense="present" text="prepare" />
+		<declension tense="past" text="prepared" />
+		<declension tense="participle" text="prepared" />
+		<link type="synonym" id="19" />
+	</word>
+	<word id="21">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="happiness" />
+		<declension number="plural" text="happinesses" />
+		<link type="antonym" id="22" />
+	</word>
+	<word id="22">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="sadness" />
+		<declension number="plural" text="sadnesses" />
+		<link type="antonym" id="21" />
+	</word>
+	<word id="23">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="wheel" />
+		<declension number="plural" text="wheels" />
+	</word>
+	<word id="24">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="squeaky" />
+		<declension form="comparative" text="squeakier" />
+		<declension form="superlative" text="squeakiest" />
+		<link type="opposition" id="25" />
+	</word>
+	<word id="25">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="grease" />
+		<declension number="plural" text="greases" />
+		<link type="opposition" id="24" />
+	</word>
+	<word id="26">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="sick" />
+		<declension form="comparative" text="sickier" />
+		<declension form="superlative" text="sickiest" />
+		<link type="opposition" id="27" />
+	</word>
+	<word id="27">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="pill" />
+		<declension number="plural" text="pills" />
+		<link type="opposition" id="26" />
+	</word>
+</dico>
