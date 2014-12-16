@@ -6,6 +6,7 @@
 			<chunk type="query">
 				<property type="class" value="concept"/>
 				<property type="nature" value="common noun"/>
+				<check node="link" relation="antonym" />
 				<declension number="plural"/>
 				<info id="0" />
 			</chunk>
@@ -77,7 +78,7 @@
 			<chunk type="query">
 				<property type="nature" value="adjective"/> 
 				<declension form="comparative" />
-				<check node="link" type="qualifies" />
+				<check node="link" relation="qualifies" />
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text=" than the " />
@@ -154,35 +155,132 @@
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
 				<declension number="singular" />
-				<check node="link" type="opposition" />
+				<check node="link" relation="opposition" />
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text="." />
 		</structure>
 	</proverb>
 	<proverb>
-		<example>When the going gets tough, the tough get going.</example>
-	</proverb>
-	<proverb>
-		<example>Fortune favors the bold.</example>
+		<example>Fortune favours the bold.</example>
+		<structure>
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive"/>
+				<declension tense="present" person="3"/>
+			</chunk>
+			<chunk type="static" text=" the " />
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="adjective" />
+			</chunk>	
+			<chunk type="static" text="." />
+		</structure>
 	</proverb>
 	<proverb>
 		<example>People who live in glass houses should not throw stones.</example>
+		<structure>
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural" />
+			</chunk>
+			<chunk type="static" text=" who " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="intransitive"/>
+				<declension tense="present" person="2" />
+			</chunk>
+			<chunk type="static" text=" in " />
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="adjective" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<check node="link" relation="generic" id="42" />
+				<declension number="singular" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="modal"/>
+				<declension tense="present" person="2" />
+			</chunk>
+			<chunk type="static" text=" not " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive"/>
+				<declension tense="infinitive" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural" />
+			</chunk>
+			<chunk type="static" text="." />			
+		</structure>
+	</proverb>
+	<proverb>
+		<example>Keep your friends close and your enemies closer.</example>
+		<structure>
+			<chunk type="static" text="Keep" />
+			<chunk type="static" text=" your " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural" />
+				<check node="link" relation="antonym" />
+				<info id="0" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="adjective" />
+				<info id="1" />
+			</chunk>
+			<chunk type="static" text=" and your " />
+			<chunk type="query">
+				<pool type="link" id="0" relation="antonym" />
+				<property type="nature" value="common noun"/>
+				<declension number="plural" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<pool type="defined" id="1"/>
+				<declension form="superlative" />
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>A picture is worth a thousand words.</example>
+		<structure>
+			<chunk type="static" text="A " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular" />
+			</chunk>			
+			<chunk type="static" text=" is worth a thousand " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural" />
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>There's no place like home.</example>
 	</proverb>
 	<proverb>
 		<example>Better late than never.</example>
 	</proverb>
 	<proverb>
 		<example>Birds of a feather flock together.</example>
-	</proverb>
-	<proverb>
-		<example>Keep your friends close and your enemies closer.</example>
-	</proverb>
-	<proverb>
-		<example>A picture is worth a thousand words.</example>
-	</proverb>
-	<proverb>
-		<example>There's no place like home.</example>
 	</proverb>
 	<proverb>
 		<example>Discretion is the greater part of valor.</example>
@@ -213,5 +311,8 @@
 	</proverb>
 	<proverb>
 		<example>Don't bite the hand that feeds you.</example>
+	</proverb>
+	<proverb>
+		<example>When the going gets tough, the tough get going.</example>
 	</proverb>
 </proverbs>
