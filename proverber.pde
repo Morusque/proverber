@@ -1,6 +1,7 @@
 
 // TODO automatize checks
 // TODO name objects better to differentiate xml and Chunk class
+// TODO add choices (i.e either common or proper noun)
 
 void setup() {
   generate();
@@ -16,7 +17,7 @@ void draw() {
 void generate() {
   XML dico = loadXML(dataPath("dico.xml"));
   XML proverbs = loadXML(dataPath("proverbs.xml"));
-  int proverbId = floor(random(11));
+  int proverbId = floor(random(16));
   println("proverbId = " + proverbId);
   XML definedToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("define");
   XML structureToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("structure");
@@ -36,7 +37,7 @@ void generate() {
     if (!result[i].defined) generateChunk(chunks, result, i, dico);
   }
   result[sentence[0]].text=result[sentence[0]].text.substring(0, 1).toUpperCase()+result[sentence[0]].text.substring(1, result[sentence[0]].text.length());
-  println("proverb : ");
+  print("proverb : ");
   for (int i=0; i<sentence.length; i++) print(result[sentence[i]].text);
   println("");
 }
@@ -142,14 +143,16 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
     // process "declension" statements
     for (XML declension : chosenWord.getChildren ("declension")) {
       boolean declensionIsOk=true;
-      for (int d=0; d<chunk.getChild ("declension").listAttributes().length; d++) {
-        String thisAttribute = chunk.getChild("declension").listAttributes()[d];
-        if (declension.hasAttribute(thisAttribute)) {
-          if (!declension.getString(thisAttribute).equals(chunk.getChild("declension").getString(thisAttribute))) {
-            declensionIsOk=false;
+      if (chunk.getChildren("declension").length>0) {
+        for (int d=0; d<chunk.getChild ("declension").listAttributes().length; d++) {
+          String thisAttribute = chunk.getChild("declension").listAttributes()[d];
+          if (declension.hasAttribute(thisAttribute)) {
+            if (!declension.getString(thisAttribute).equals(chunk.getChild("declension").getString(thisAttribute))) {
+              declensionIsOk=false;
+            }
+          } else {
+            // TODO not sure if there should be this or not : declensionIsOk=false;
           }
-        } else {
-          // TODO not sure if there should be this or not : declensionIsOk=false;
         }
       }
       if (declensionIsOk) {

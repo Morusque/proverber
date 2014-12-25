@@ -20,7 +20,7 @@
 		<link relation="demonym" id="3" />
 	</word>
 	<word id="3">
-		<property type="nature" value="proper noun" />
+		<property type="nature" value="adjective" />
 		<property type="attribute" value="demonym" />
 		<declension number="singular" text="Roman" />
 		<declension number="plural" text="Romans" />
@@ -33,7 +33,7 @@
 		<link relation="demonym" id="5" />
 	</word>
 	<word id="5">
-		<property type="nature" value="proper noun" />
+		<property type="nature" value="adjective" />
 		<property type="attribute" value="demonym" />
 		<declension number="singular" text="Parisian" />
 		<declension number="plural" text="Parisians" />
@@ -116,7 +116,7 @@
 	<word id="18">
 		<property type="nature" value="verb" />
 		<property type="syntax" value="+for" />
-		<declension tense="gerung" text="being" />
+		<declension tense="gerund" text="being" />
 		<declension tense="infinitive" text="be" />
 		<declension tense="present" person="1" text="am" />
 		<declension tense="present" person="2" text="are" />
@@ -130,7 +130,7 @@
 		<property type="nature" value="verb" />
 		<property type="syntax" value="+for" />
 		<property type="syntax" value="intransitive" />
-		<declension tense="gerung" text="hoping" />
+		<declension tense="gerund" text="hoping" />
 		<declension tense="infinitive" text="hope" />
 		<declension tense="present" person="1" text="hope" />
 		<declension tense="present" person="2" text="hope" />
@@ -142,7 +142,7 @@
 	<word id="20">
 		<property type="nature" value="verb" />
 		<property type="syntax" value="+for" />
-		<declension tense="gerung" text="preparing" />
+		<declension tense="gerund" text="preparing" />
 		<declension tense="infinitive" text="prepare" />
 		<declension tense="present" person="1" text="prepare" />
 		<declension tense="present" person="2" text="prepare" />
@@ -213,7 +213,7 @@
 	<word id="30">
 		<property type="nature" value="verb" />
 		<property type="syntax" value="transitive" />
-		<declension tense="gerung" text="favouring" />
+		<declension tense="gerund" text="favouring" />
 		<declension tense="infinitive" text="favour" />
 		<declension tense="present" person="1" text="favour" />
 		<declension tense="present" person="2" text="favour" />
@@ -225,7 +225,7 @@
 	<word id="31">
 		<property type="nature" value="verb" />
 		<property type="syntax" value="transitive" />
-		<declension tense="gerung" text="prefering" />
+		<declension tense="gerund" text="prefering" />
 		<declension tense="infinitive" text="prefer" />
 		<declension tense="present" person="1" text="prefer" />
 		<declension tense="present" person="2" text="prefer" />
@@ -384,5 +384,162 @@
 		<declension number="singular" text="word" />
 		<declension number="plural" text="words" />
 	</word>
+	<word id="54">
+		<property type="nature" value="adverb" />
+		<declension text="late" />
+		<link relation="antonym" id="55" />
+	</word>
+	<word id="55">
+		<property type="nature" value="adverb" />
+		<declension text="early" />
+		<link relation="antonym" id="54" />
+	</word>
+	<word id="56">
+		<property type="nature" value="adverb" />
+		<declension text="never" />
+	</word>
+	<word id="57">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="bird" />
+		<declension number="plural" text="birds" />
+	</word>
+	<word id="58">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="feather" />
+		<declension number="plural" text="feathers" />
+	</word>
+	<word id="59">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="intransitive" />
+		<declension tense="gerund" text="flocking" />
+		<declension tense="infinitive" text="flock" />
+		<declension tense="present" person="1" text="flock" />
+		<declension tense="present" person="2" text="flock" />
+		<declension tense="present" person="3" text="flocks" />
+		<declension tense="past" text="flocked" />
+		<declension tense="participle" text="flocked" />
+	</word>
+	<word id="60">
+		<property type="nature" value="adverb" />
+		<declension text="together" />
+		<link relation="antonym" id="61" />
+	</word>
+	<word id="61">
+		<property type="nature" value="adverb" />
+		<declension text="alone" />
+		<link relation="antonym" id="60" />
+	</word>
+	<word id="62">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="discretion" />
+		<declension number="plural" text="discretions" />
+		<link relation="antonym" id="63" />		
+	</word>
+	<word id="63">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="indiscretion" />
+		<declension number="plural" text="indiscretions" />
+		<link relation="antonym" id="62" />
+	</word>
+	<word id="64">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="valor" />
+		<declension number="plural" text="valors" />
+		<link relation="antonym" id="65" />
+	</word>
+	<word id="65">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="weakness" />
+		<declension number="plural" text="weaknesses" />
+		<link relation="antonym" id="64" />
+	</word>
+	<word id="66">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="great" />
+		<declension form="comparative" text="greater" />
+		<declension form="superlative" text="greatest" />
+		<link relation="antonym" id="67" />
+		<link relation="synonym" id="68" />
+	</word>
+	<word id="67">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="small" />
+		<declension form="comparative" text="smaller" />
+		<declension form="superlative" text="smallest" />
+		<link relation="antonym" id="66" />
+	</word>	
+	<word id="68">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="big" />
+		<declension form="comparative" text="bigger" />
+		<declension form="superlative" text="biggest" />
+		<link relation="antonym" id="67" />
+		<link relation="synonym" id="66" />
+	</word>	
+	<word id="69">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="making" />
+		<declension tense="infinitive" text="make" />
+		<declension tense="present" person="1" text="make" />
+		<declension tense="present" person="2" text="make" />
+		<declension tense="present" person="3" text="makes" />
+		<declension tense="past" text="made" />
+		<declension tense="participle" text="made" />
+		<link relation="synonym" id="70" />
+	</word>
+	<word id="70">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<property type="syntax" value="auxiliary" />
+		<declension tense="gerund" text="doing" />
+		<declension tense="infinitive" text="do" />
+		<declension tense="present" person="1" text="do" />
+		<declension tense="present" person="2" text="do" />
+		<declension tense="present" person="3" text="does" />
+		<declension tense="past" text="did" />
+		<declension tense="participle" text="done" />
+		<link relation="synonym" id="69" />
+	</word>
+	<word id="71">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="omelet" />
+		<declension number="plural" text="omelets" />
+	</word>
+	<word id="72">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="egg" />
+		<declension number="plural" text="eggs" />
+	</word>
+	<word id="73">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="breaking" />
+		<declension tense="infinitive" text="break" />
+		<declension tense="present" person="1" text="break" />
+		<declension tense="present" person="2" text="break" />
+		<declension tense="present" person="3" text="breaks" />
+		<declension tense="past" text="broke" />
+		<declension tense="participle" text="broken" />
+	</word>
+	<word id="74">
+		<property type="nature" value="proper noun" />
+		<declension number="singular" text="God" />
+		<declension number="plural" text="the gods" />
+	</word>
+	<word id="75">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="helping" />
+		<declension tense="infinitive" text="help" />
+		<declension tense="present" person="1" text="help" />
+		<declension tense="present" person="2" text="help" />
+		<declension tense="present" person="3" text="helps" />
+		<declension tense="past" text="helped" />
+		<declension tense="participle" text="helped" />
+	</word>
 </dico>
- 
