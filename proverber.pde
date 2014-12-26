@@ -9,6 +9,7 @@
 // TODO make adverbs a declension of adjectives ?
 // TODO define a list of obligatory fields for each nature of words
 // TODO if a required declension is not present ask for another word
+// TODO add more proper nouns with the floodfill tool
 
 void setup() {
 }

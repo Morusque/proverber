@@ -4,7 +4,7 @@
 		<structure>
 			<chunk type="static" text="Two " />
 			<chunk type="query">
-				<property type="class" value="concept"/>
+				<!--<property type="class" value="concept"/>-->
 				<property type="nature" value="common noun"/>
 				<!--<check node="link" relation="antonym" />-->
 				<declension number="plural"/>
@@ -166,7 +166,7 @@
 		<structure>
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
-				<property type="class" value="concept"/>
+				<!--<property type="class" value="concept"/>-->
 				<declension number="singular" />
 			</chunk>
 			<chunk type="static" text=" " />
@@ -317,7 +317,7 @@
 		<structure>
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
-				<property type="class" value="concept"/>
+				<!--<property type="class" value="concept"/>-->
 				<declension number="singular"/>
 			</chunk>
 			<chunk type="static" text=" is the " />
