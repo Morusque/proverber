@@ -11,7 +11,12 @@
 // TODO if a required declension is not present ask for another word
 // TODO add more proper nouns with the floodfill tool
 
+XML dico;
+XML proverbs;
+
 void setup() {
+  dico = loadXML(dataPath("dico.xml"));
+  proverbs = loadXML(dataPath("proverbs.xml"));
 }
 
 void keyPressed() {
@@ -36,8 +41,6 @@ void draw() {
 }
 
 String generate(int proverbId) {
-  XML dico = loadXML(dataPath("dico.xml"));
-  XML proverbs = loadXML(dataPath("proverbs.xml"));
   if (proverbId==-1) proverbId = floor(random(proverbs.getChildren("proverb").length));
   // println("proverbId = " + proverbId);
   XML definedToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("define");

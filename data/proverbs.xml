@@ -416,7 +416,6 @@
 				<property type="nature" value="verb"/>
 				<property type="syntax" value="transitive" />
 				<declension tense="infinitive" />
-				<info id="1"/>
 			</chunk>
 			<chunk type="static" text=" the " />
 			<chunk type="query">
@@ -428,7 +427,6 @@
 				<property type="nature" value="verb"/>
 				<property type="syntax" value="transitive" />
 				<declension tense="present" person="3" />
-				<info id="1"/>
 			</chunk>
 			<chunk type="static" text=" you." />
 		</structure>		
