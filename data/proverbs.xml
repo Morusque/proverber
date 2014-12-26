@@ -116,7 +116,7 @@
 			</chunk>
 			<chunk type="static" text=" for the " />
 			<chunk type="query">
-				<property type="class" value="concept"/>
+				<!--<property type="class" value="concept"/>-->
 				<property type="nature" value="common noun"/>
 				<!--<check node="link" relation="antonym" />-->
 				<declension number="singular"/>
