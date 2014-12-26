@@ -2,6 +2,11 @@
 // TODO automatize checks
 // TODO name objects better to differentiate xml and Chunk class
 // TODO add choices (i.e either common or proper noun)
+// TODO how to know if "a" or "an" should be used (it needs to stay generic)
+// TODO generate a large bunch of them, spot duplicates and then either remove very specific parameters or expand dico to balance the results 
+// TODO you can say "it favors the bold" but possibly not "it favors the far", define an attribute to make the distinction
+// TODO "there's no place like home" but "there's no animal like a duck", define attribute to know if it has to add "a" before the noun
+// TODO find a way to generate sentences like "When the going gets tough, the tough get going." while keeping the homonymous relationships
 
 void setup() {
   generate();
@@ -17,7 +22,7 @@ void draw() {
 void generate() {
   XML dico = loadXML(dataPath("dico.xml"));
   XML proverbs = loadXML(dataPath("proverbs.xml"));
-  int proverbId = floor(random(16));
+  int proverbId = floor(random(25));
   println("proverbId = " + proverbId);
   XML definedToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("define");
   XML structureToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("structure");
@@ -135,7 +140,7 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
       }
     }
 
-    // TODO process "elude" statements
+    // TODO process "elude" statements (for both entire words, words to be omitted based on specific attributes)
 
     // pick word
     XML chosenWord = pool.get(floor(random(pool.size())));

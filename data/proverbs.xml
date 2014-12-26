@@ -32,8 +32,7 @@
 			<chunk type="static" text=", do as the " />
 			<chunk type="query">
 				<pool type="link" id="0" relation="demonym" />
-				<property type="nature" value="adjective"/>
-				<property type="attribute" value="demonym"/>
+				<property type="nature" value="demonym"/>
 				<declension number="plural"/>
 			</chunk>
 			<chunk type="static" text="." />
@@ -387,30 +386,206 @@
 		</structure>
 	</proverb>
 	<proverb>
-		<example>There's no place like home.</example>
-	</proverb>
-	<proverb>
 		<example>A watched pot never boils.</example>
-	</proverb>
-	<proverb>
-		<example>Beggars can't be choosers.</example>
-	</proverb>
-	<proverb>
-		<example>If it ain't broke, don't fix it.</example>
-	</proverb>
-	<proverb>
-		<example>Too many cooks spoil the broth.</example>
-	</proverb>
-	<proverb>
-		<example>Actions speak louder than words.</example>
-	</proverb>
-	<proverb>
-		<example>Easy come, easy go.</example>
+		<structure>
+			<chunk type="static" text="A " />
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="adjective" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular"/>
+			</chunk>			
+			<chunk type="static" text=" never " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="intransitive" />
+				<declension tense="present" person="3" />
+				<info id="1"/>
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
 	</proverb>
 	<proverb>
 		<example>Don't bite the hand that feeds you.</example>
+		<structure>
+			<chunk type="static" text="Don't " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive" />
+				<declension tense="infinitive" />
+				<info id="1"/>
+			</chunk>
+			<chunk type="static" text=" the " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular"/>
+			</chunk>
+			<chunk type="static" text=" that " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive" />
+				<declension tense="present" person="3" />
+				<info id="1"/>
+			</chunk>
+			<chunk type="static" text=" you." />
+		</structure>		
+	</proverb>
+	<proverb>
+		<example>If it ain't broke, don't fix it.</example>
+		<structure>
+			<chunk type="static" text="If it ain't " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive" />
+				<declension tense="participle" />
+				<info id="1"/>
+			</chunk>
+			<chunk type="static" text=", don't " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive" />
+				<declension tense="present" person="2" />
+				<info id="1"/>
+			</chunk>
+			<chunk type="static" text=" it." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>There's no place like home.</example>
+		<structure>
+			<chunk type="static" text="There's no " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular"/>
+			</chunk>
+			<chunk type="static" text=" like a " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular"/>
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>Too many cooks spoil the broth.</example>
+		<structure>
+			<chunk type="static" text="Too many " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural"/>
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="transitive" />
+				<declension tense="present" person="2" />
+			</chunk>
+			<chunk type="static" text=" the " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="singular"/>
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>Actions speak louder than words.</example>
+		<structure>
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural"/>
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="intransitive" />
+				<declension tense="present" person="2" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="comparative" />
+			</chunk>
+			<chunk type="static" text=" than " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural"/>
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>Easy come, easy go.</example>
+		<structure>
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="adjective" />
+				<info id="1" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="intransitive" />
+				<declension tense="present" person="2" />
+			</chunk>			
+			<chunk type="static" text=", " />
+			<chunk type="query">
+				<pool type="defined" id="1"/>
+				<declension form="adjective" />
+			</chunk>
+			<chunk type="static" text=" " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="intransitive" />
+				<declension tense="present" person="2" />
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
 	</proverb>
 	<proverb>
 		<example>When the going gets tough, the tough get going.</example>
+		<structure>
+			<chunk type="static" text="When the " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<declension tense="gerund" />
+				<info id="2" />
+			</chunk>
+			<chunk type="static" text=" gets " />
+			<chunk type="query">
+				<property type="nature" value="adjective"/>
+				<declension form="adjective" />
+				<info id="1" />
+			</chunk>
+			<chunk type="static" text=", the " />
+			<chunk type="query">
+				<pool type="defined" id="1"/>
+				<declension form="adjective" />
+			</chunk>
+			<chunk type="static" text=" get " />
+			<chunk type="query">
+				<pool type="defined" id="2"/>
+				<declension tense="gerund" />
+			</chunk>			
+			<chunk type="static" text="." />
+		</structure>
+	</proverb>
+	<proverb>
+		<example>Beggars can't be choosers.</example>
+		<structure>
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural"/>
+			</chunk>
+			<chunk type="static" text=" can't be " />
+			<chunk type="query">
+				<property type="nature" value="common noun"/>
+				<declension number="plural"/>
+			</chunk>
+			<chunk type="static" text="." />
+		</structure>
 	</proverb>
 </proverbs>

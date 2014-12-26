@@ -20,8 +20,7 @@
 		<link relation="demonym" id="3" />
 	</word>
 	<word id="3">
-		<property type="nature" value="adjective" />
-		<property type="attribute" value="demonym" />
+		<property type="nature" value="demonym" />
 		<declension number="singular" text="Roman" />
 		<declension number="plural" text="Romans" />
 		<link relation="demonym of" id="2" />
@@ -33,8 +32,7 @@
 		<link relation="demonym" id="5" />
 	</word>
 	<word id="5">
-		<property type="nature" value="adjective" />
-		<property type="attribute" value="demonym" />
+		<property type="nature" value="demonym" />
 		<declension number="singular" text="Parisian" />
 		<declension number="plural" text="Parisians" />
 		<link relation="demonym of" id="4" />
@@ -541,5 +539,157 @@
 		<declension tense="present" person="3" text="helps" />
 		<declension tense="past" text="helped" />
 		<declension tense="participle" text="helped" />
+	</word>
+	<word id="76">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="watching" />
+		<declension tense="infinitive" text="watch" />
+		<declension tense="present" person="1" text="watch" />
+		<declension tense="present" person="2" text="watch" />
+		<declension tense="present" person="3" text="watches" />
+		<declension tense="past" text="watched" />
+		<declension tense="participle" text="watched" />
+	</word>
+	<word id="77">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="pot" />
+		<declension number="plural" text="pots" />
+	</word>
+	<word id="78">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="boiling" />
+		<declension tense="infinitive" text="boil" />
+		<declension tense="present" person="1" text="boil" />
+		<declension tense="present" person="2" text="boil" />
+		<declension tense="present" person="3" text="boils" />
+		<declension tense="past" text="boiled" />
+		<declension tense="participle" text="boiled" />
+	</word>	
+	<word id="79">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="biting" />
+		<declension tense="infinitive" text="bite" />
+		<declension tense="present" person="1" text="bite" />
+		<declension tense="present" person="2" text="bite" />
+		<declension tense="present" person="3" text="bites" />
+		<declension tense="past" text="bit" />
+		<declension tense="participle" text="bitten" />
+	</word>
+	<word id="80">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="hand" />
+		<declension number="plural" text="hands" />
+	</word>
+	<word id="81">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="feeding" />
+		<declension tense="infinitive" text="feed" />
+		<declension tense="present" person="1" text="feed" />
+		<declension tense="present" person="2" text="feed" />
+		<declension tense="present" person="3" text="feeds" />
+		<declension tense="past" text="fed" />
+		<declension tense="participle" text="fed" />
+	</word>	
+	<word id="82">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="fixing" />
+		<declension tense="infinitive" text="fix" />
+		<declension tense="present" person="1" text="fix" />
+		<declension tense="present" person="2" text="fix" />
+		<declension tense="present" person="3" text="fixes" />
+		<declension tense="past" text="fixed" />
+		<declension tense="participle" text="fixed" />
+	</word>
+	<word id="82">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="home" />
+		<declension number="plural" text="homes" />
+		<link relation="generic" id="42" />
+	</word>
+	<word id="83">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="cook" />
+		<declension number="plural" text="cooks" />
+	</word>
+	<word id="83">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="broth" />
+		<declension number="plural" text="broths" />
+	</word>
+	<word id="84">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="spoiling" />
+		<declension tense="infinitive" text="spoil" />
+		<declension tense="present" person="1" text="spoil" />
+		<declension tense="present" person="2" text="spoil" />
+		<declension tense="present" person="3" text="spoils" />
+		<declension tense="past" text="spoiled" />
+		<declension tense="participle" text="spoiled" />
+	</word>
+	<word id="85">
+		<property type="nature" value="common noun" />
+		<property type="class" value="concept" />
+		<declension number="singular" text="action" />
+		<declension number="plural" text="actions" />
+	</word>
+	<word id="86">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="word" />
+		<declension number="plural" text="words" />
+	</word>
+	<word id="87">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="intransitive" />
+		<declension tense="gerund" text="speaking" />
+		<declension tense="infinitive" text="speak" />
+		<declension tense="present" person="1" text="speak" />
+		<declension tense="present" person="2" text="speak" />
+		<declension tense="present" person="3" text="speaks" />
+		<declension tense="past" text="spoke" />
+		<declension tense="participle" text="spoken" />
+	</word>	
+	<word id="88">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="easy" />
+		<declension form="comparative" text="easier" />
+		<declension form="superlative" text="easiest" />
+		<link relation="antonym" id="91" />
+	</word>
+	<word id="89">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="intransitive" />
+		<declension tense="gerund" text="coming" />
+		<declension tense="infinitive" text="come" />
+		<declension tense="present" person="1" text="come" />
+		<declension tense="present" person="2" text="come" />
+		<declension tense="present" person="3" text="comes" />
+		<declension tense="past" text="came" />
+		<declension tense="participle" text="come" />
+		<link relation="antonym" id="90" />
+	</word>	
+	<word id="90">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="intransitive" />
+		<declension tense="gerund" text="going" />
+		<declension tense="infinitive" text="go" />
+		<declension tense="present" person="1" text="go" />
+		<declension tense="present" person="2" text="go" />
+		<declension tense="present" person="3" text="goes" />
+		<declension tense="past" text="went" />
+		<declension tense="participle" text="gone" />
+		<link relation="antonym" id="89" />
+	</word>
+	<word id="91">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="tough" />
+		<declension form="comparative" text="tougher" />
+		<declension form="superlative" text="toughest" />
+		<link relation="antonym" id="88" />
 	</word>
 </dico>
