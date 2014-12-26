@@ -7,7 +7,6 @@
 // TODO you can say "it favors the bold" but possibly not "it favors the far", define an attribute to make the distinction
 // TODO "there's no place like home" but "there's no animal like a duck", define attribute to know if it has to add "a" before the noun
 // TODO make adverbs a declension of adjectives ?
-// TODO crawl the web and flood fill that database
 // TODO define a list of obligatory fields for each nature of words
 // TODO if a required declension is not present ask for another word
 
