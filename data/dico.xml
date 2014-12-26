@@ -223,7 +223,7 @@
 	<word id="31">
 		<property type="nature" value="verb" />
 		<property type="syntax" value="transitive" />
-		<declension tense="gerund" text="prefering" />
+		<declension tense="gerund" text="preferring" />
 		<declension tense="infinitive" text="prefer" />
 		<declension tense="present" person="1" text="prefer" />
 		<declension tense="present" person="2" text="prefer" />
@@ -239,26 +239,22 @@
 		<declension form="superlative" text="boldest" />
 	</word>	
 	<word id="33">
-		<property type="nature" value="verb" />
-		<property type="syntax" value="modal" />
+		<property type="nature" value="modal verb" />
 		<declension tense="infinitive" text="should" />
 		<declension tense="present" text="should" />
 	</word>
 	<word id="34">
-		<property type="nature" value="verb" />
-		<property type="syntax" value="modal" />
+		<property type="nature" value="modal verb" />
 		<declension tense="infinitive" text="can" />
 		<declension tense="present" text="can" />
 	</word>
 	<word id="35">
-		<property type="nature" value="verb" />
-		<property type="syntax" value="modal" />
+		<property type="nature" value="modal verb" />
 		<declension tense="infinitive" text="must" />
 		<declension tense="present" text="must" />
 	</word>
 	<word id="36">
-		<property type="nature" value="verb" />
-		<property type="syntax" value="modal" />
+		<property type="nature" value="modal verb" />
 		<declension tense="infinitive" text="might" />
 		<declension tense="present" text="might" />
 	</word>
@@ -691,5 +687,65 @@
 		<declension form="comparative" text="tougher" />
 		<declension form="superlative" text="toughest" />
 		<link relation="antonym" id="88" />
+	</word>
+	<word id="92">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="happy" />
+		<declension form="comparative" text="happier" />
+		<declension form="superlative" text="happiest" />
+		<link relation="antonym" id="93" />
+	</word>
+	<word id="93">
+		<property type="nature" value="adjective" />
+		<declension form="adjective" text="sad" />
+		<declension form="comparative" text="sadder" />
+		<declension form="superlative" text="saddest" />
+		<link relation="antonym" id="92" />
+	</word>
+	<word id="94">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="beggar" />
+		<declension number="plural" text="beggars" />
+	</word>
+	<word id="95">
+		<property type="nature" value="common noun" />
+		<declension number="singular" text="chooser" />
+		<declension number="plural" text="choosers" />
+	</word>
+	<word id="96">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="transitive" />
+		<declension tense="gerund" text="choosing" />
+		<declension tense="infinitive" text="choose" />
+		<declension tense="present" person="1" text="choose" />
+		<declension tense="present" person="2" text="choose" />
+		<declension tense="present" person="3" text="chooses" />
+		<declension tense="past" text="chose" />
+		<declension tense="participle" text="chosen" />
+	</word>
+	<word id="97">
+		<property type="nature" value="verb" />
+		<property type="syntax" value="intransitive" />
+		<declension tense="gerund" text="hiding" />
+		<declension tense="infinitive" text="hide" />
+		<declension tense="present" person="1" text="hide" />
+		<declension tense="present" person="2" text="hide" />
+		<declension tense="present" person="3" text="hides" />
+		<declension tense="past" text="hid" />
+		<declension tense="participle" text="hidden" />
+	</word>
+	<word id="98">
+		<property type="nature" value="adverb" />
+		<declension text="quickly" />
+		<link relation="antonym" id="99" />
+	</word>
+	<word id="99">
+		<property type="nature" value="adverb" />
+		<declension text="slowly" />
+		<link relation="antonym" id="98" />
+	</word>
+	<word id="100">
+		<property type="nature" value="adverb" />
+		<declension text="sometimes" />
 	</word>
 </dico>

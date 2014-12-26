@@ -6,20 +6,20 @@
 			<chunk type="query">
 				<property type="class" value="concept"/>
 				<property type="nature" value="common noun"/>
-				<check node="link" relation="antonym" />
+				<!--<check node="link" relation="antonym" />-->
 				<declension number="plural"/>
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text=" don't make a " />
 			<chunk type="query">
-				<pool type="link" id="0" relation="antonym" />
+				<!--<pool type="link" id="0" relation="antonym" />-->
 				<property type="nature" value="common noun"/>
 				<declension number="singular"/>
 			</chunk>
 			<chunk type="static" text="." />
 		</structure>
 	</proverb>
-	<proverb>
+	<!--<proverb>
 		<example>When in Rome, do as the Romans.</example>
 		<structure>
 			<chunk type="static" text="When in " />
@@ -37,8 +37,8 @@
 			</chunk>
 			<chunk type="static" text="." />
 		</structure>
-	</proverb>
-	<proverb>
+	</proverb>-->
+	<!--<proverb>
 		<example>All ways lead to Rome.</example>
 		<define>
 			<chunk type="query">
@@ -63,7 +63,7 @@
 			</chunk>			
 			<chunk type="static" text="." />
 		</structure>
-	</proverb>
+	</proverb>-->
 	<proverb>
 		<example>The pen is mightier than the sword.</example>
 		<structure>
@@ -77,13 +77,13 @@
 			<chunk type="query">
 				<property type="nature" value="adjective"/> 
 				<declension form="comparative" />
-				<check node="link" relation="qualifies" />
+				<!--<check node="link" relation="qualifies" />-->
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text=" than the " />
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
-				<pool type="link" id="0" relation="qualifies" />
+				<!--<pool type="link" id="0" relation="qualifies" />-->
 				<declension number="singular"/>
 				<info id="1" />
 			</chunk>
@@ -118,6 +118,7 @@
 			<chunk type="query">
 				<property type="class" value="concept"/>
 				<property type="nature" value="common noun"/>
+				<!--<check node="link" relation="antonym" />-->
 				<declension number="singular"/>
 				<info id="0" />
 			</chunk>
@@ -129,7 +130,7 @@
 			</chunk>
 			<chunk type="static" text=" for the " />
 			<chunk type="query">
-				<pool type="link" id="0" relation="antonym" />
+				<!--<pool type="link" id="0" relation="antonym" />-->
 				<property type="nature" value="common noun"/>
 				<declension number="singular"/>
 			</chunk>		
@@ -141,7 +142,7 @@
 		<structure>
 			<chunk type="static" text="The " />
 			<chunk type="query">
-				<pool type="link" id="0" relation="opposition" />
+				<!--<pool type="link" id="0" relation="opposition" />-->
 				<property type="nature" value="adjective"/>
 				<declension form="adjective" />
 			</chunk>
@@ -154,7 +155,7 @@
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
 				<declension number="singular" />
-				<check node="link" relation="opposition" />
+				<!--<check node="link" relation="opposition" />-->
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text="." />
@@ -208,8 +209,7 @@
 			</chunk>
 			<chunk type="static" text=" " />
 			<chunk type="query">
-				<property type="nature" value="verb"/>
-				<property type="syntax" value="modal"/>
+				<property type="nature" value="modal verb"/>
 				<declension tense="present" person="2" />
 			</chunk>
 			<chunk type="static" text=" not " />
@@ -234,7 +234,7 @@
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
 				<declension number="plural" />
-				<check node="link" relation="antonym" />
+				<!--<check node="link" relation="antonym" />-->
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text=" " />
@@ -245,7 +245,7 @@
 			</chunk>
 			<chunk type="static" text=" and your " />
 			<chunk type="query">
-				<pool type="link" id="0" relation="antonym" />
+				<!--<pool type="link" id="0" relation="antonym" />-->
 				<property type="nature" value="common noun"/>
 				<declension number="plural" />
 			</chunk>
@@ -264,7 +264,7 @@
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
 				<declension number="singular" />
-			</chunk>			
+			</chunk>
 			<chunk type="static" text=" is worth a thousand " />
 			<chunk type="query">
 				<property type="nature" value="common noun"/>

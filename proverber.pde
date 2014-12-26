@@ -6,24 +6,40 @@
 // TODO generate a large bunch of them, spot duplicates and then either remove very specific parameters or expand dico to balance the results 
 // TODO you can say "it favors the bold" but possibly not "it favors the far", define an attribute to make the distinction
 // TODO "there's no place like home" but "there's no animal like a duck", define attribute to know if it has to add "a" before the noun
-// TODO find a way to generate sentences like "When the going gets tough, the tough get going." while keeping the homonymous relationships
+// TODO make adverbs a declension of adjectives ?
+// TODO crawl the web and flood fill that database
+// TODO define a list of obligatory fields for each nature of words
+// TODO if a required declension is not present ask for another word
 
 void setup() {
-  generate();
 }
 
 void keyPressed() {
-  generate();
+  if (keyCode==ENTER) println(generate(-1));
+  if (keyCode==TAB) {
+    for (int i=0; i<23; i++) {
+      ArrayList<String> ps = new ArrayList<String>();
+      int dup=0;
+      for (int j=0; j<500; j++) {
+        String p = generate(i);
+        boolean found=false;
+        for (int k=0; k<ps.size ( )&& !found; k++) if (p.equals(ps.get(k))) found=true;
+        if (found) dup++;
+        ps.add(p);
+      }
+      println (i+" : "+dup);
+    }
+  }
 }
 
 void draw() {
 }
 
-void generate() {
+String generate(int proverbId) {
   XML dico = loadXML(dataPath("dico.xml"));
   XML proverbs = loadXML(dataPath("proverbs.xml"));
-  int proverbId = floor(random(25));
-  println("proverbId = " + proverbId);
+  if (proverbId==-1) proverbId = floor(random(proverbs.getChildren("proverb").length));
+  // println("proverbId = " + proverbId);
   XML definedToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("define");
   XML structureToGenerate = proverbs.getChildren("proverb")[proverbId].getChild("structure");
   ArrayList<XML> chunks = new ArrayList<XML>();
@@ -42,9 +58,11 @@ void generate() {
     if (!result[i].defined) generateChunk(chunks, result, i, dico);
   }
   result[sentence[0]].text=result[sentence[0]].text.substring(0, 1).toUpperCase()+result[sentence[0]].text.substring(1, result[sentence[0]].text.length());
-  print("proverb : ");
-  for (int i=0; i<sentence.length; i++) print(result[sentence[i]].text);
-  println("");
+  // print("proverb : ");
+  String sentenceStr = "";
+  for (int i=0; i<sentence.length; i++) sentenceStr += result[sentence[i]].text;
+  // println(sentence);
+  return sentenceStr;
 }
 
 class Chunk {
@@ -143,29 +161,40 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
     // TODO process "elude" statements (for both entire words, words to be omitted based on specific attributes)
 
     // pick word
-    XML chosenWord = pool.get(floor(random(pool.size())));
+    XML chosenWord=null;
+    try {
+      chosenWord = pool.get(floor(random(pool.size())));
+    } 
+    catch (Exception e) {
+      println("(pick word) : "+index+" : "+e);
+    }
 
     // process "declension" statements
-    for (XML declension : chosenWord.getChildren ("declension")) {
-      boolean declensionIsOk=true;
-      if (chunk.getChildren("declension").length>0) {
-        for (int d=0; d<chunk.getChild ("declension").listAttributes().length; d++) {
-          String thisAttribute = chunk.getChild("declension").listAttributes()[d];
-          if (declension.hasAttribute(thisAttribute)) {
-            if (!declension.getString(thisAttribute).equals(chunk.getChild("declension").getString(thisAttribute))) {
-              declensionIsOk=false;
+    try {
+      for (XML declension : chosenWord.getChildren ("declension")) {
+        boolean declensionIsOk=true;
+        if (chunk.getChildren("declension").length>0) {
+          for (int d=0; d<chunk.getChild ("declension").listAttributes().length; d++) {
+            String thisAttribute = chunk.getChild("declension").listAttributes()[d];
+            if (declension.hasAttribute(thisAttribute)) {
+              if (!declension.getString(thisAttribute).equals(chunk.getChild("declension").getString(thisAttribute))) {
+                declensionIsOk=false;
+              }
+            } else {
+              // TODO not sure if there should be this or not : declensionIsOk=false;
             }
-          } else {
-            // TODO not sure if there should be this or not : declensionIsOk=false;
           }
         }
+        if (declensionIsOk) {
+          result[index] = new Chunk();
+          result[index].text = declension.getString("text");
+          result[index].word = chosenWord;
+          result[index].defined=true;
+        }
       }
-      if (declensionIsOk) {
-        result[index] = new Chunk();
-        result[index].text = declension.getString("text");
-        result[index].word = chosenWord;
-        result[index].defined=true;
-      }
+    } 
+    catch (Exception e) {
+      println("(process declension statements) : "+index+" : "+e);
     }
 
     // process "info" statements
