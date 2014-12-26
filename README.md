@@ -1,7 +1,7 @@
 proverber
 =========
 
-This tool can generate proverbs (or other sentences actually) based on a database of words and a database of grammatical/semantical structures (both based on existing englishproverbs).
+This tool can generate proverbs (or other sentences actually) by picking elements out of a database of words and a database of grammatical/semantical structures (both based on existing english proverbs).
 The semantic fields were currently set aside in favor of the grammatical ones.
 
 Here are a few generated proverbs as an example :
