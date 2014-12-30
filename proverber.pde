@@ -17,7 +17,7 @@
 XML dico;
 XML proverbs;
 
-boolean js = true;
+boolean js = false;
 
 void setup() {
   dico = loadXML(("dico.xml"));
@@ -49,8 +49,8 @@ void draw() {
 }
 
 void writeAProverb() {
-  if (js) document.getElementById("proverb").innerHTML += generate(-1) + "<br/>";
-  else println(generate(-1));
+  // if (js) document.getElementById("proverb").innerHTML += generate(-1) + "<br/>";
+  println(generate(-1));
 }
 
 String generate(int proverbId) {

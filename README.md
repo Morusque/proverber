@@ -1,34 +1,53 @@
 proverber
 =========
 
-This tool can generate proverbs (or other sentences actually) by picking elements out of a database of words and a database of grammatical/semantical structures (both based on existing english proverbs).
-The semantic fields were currently set aside in favor of the grammatical ones.
+This tool can generate proverbs (or other sentences actually) by picking elements out of a database of words and a database of grammatical/semantical structures (initially based on existing english proverbs, but the words database is now a fairly big English dictionary).
 
 Here are a few generated proverbs as an example :
 
-Hope for the happiness, but prepare for the fortune.
-A misfortune is worth a thousand cooks.
-If it ain't boiled, don't boil it.
-Don't break the house that helps you.
-Be for the success, but be for the feather.
-People of a beggar flock never.
-Two weaknesses don't make a sword.
-When the throwing gets easy, the easy get throwing.
-A sad action never flocks.
-If it ain't favoured, don't break it.
-Right makes the big.
-Men of a cook come early.
-When the doing gets small, the small get doing.
-Don't break the man that fixes you.
-Indiscretion is the squeakiest part of action.
-Indiscretions who live in tough forest should not feed enemies.
-Don't choose the indiscretion that fixes you.
-You can't fix a sadness without spoiling a few avenues.
-Success breaks the big.
-Great walk, great sleep.
-Happinesses can't be men.
-If it ain't broken, don't throw it.
-Two fortunes don't make a house.
-When the breaking gets far, the far get breaking.
-A feather is worth a thousand choosers.
-The picture is bigger than the sadness.
+Two repellences don't make a attraction.
+Better captiously than adiabatically.
+Dakoits of a haft pay behind.
+Lepers kneel dewier than anachronisms.
+A hawkie is worth a thousand lumbagos.
+Ferrule draws the chummy.
+Giving is the widest part of bestowal.
+Puffings who fall in scrubby home can not buy recommencements.
+Headpins can't be cassations.
+God understands those who understand themselves.
+Soapy freeze, soapy spin.
+A bodywork is worth a thousand outages.
+Thingamajig wins the newsy.
+Keep your dilemmas naive and your extrications naiver.
+The knothole is shallower than the lessor.
+When the mislaying gets mad, the mad get mislaying.
+Flakes of a foliation foresee contractedly.
+Paris forgets those who forget themselves.
+A yeasty cytoplasm never shrinks.
+Two composures don't make a perturbation.
+If it ain't eaten, don't cut it.
+Don't quit the wrester that fixes you.
+Better queryingly than recessively.
+Altitudes who rise in doughy house must not pay skillets.
+The septuagenarian is cleaner than the hellgrammite.
+Be for the refusal, but bet for the permission.
+A deaf incompetent never kneels.
+A wheezy wording never bets.
+Wranglers can't be incantations.
+Indeterminists can't be tamperers.
+Two exhumations don't make a burial.
+Better soporiferously than upwards.
+Two appetites don't make a aversion.
+Keep your predecessors knobby and your successors knobbier.
+Two disapprobations don't make a praise.
+A sublease is worth a thousand homogenates.
+Don't know the goring that sells you.
+Better just than pacifically.
+You can't keep a upswing without winning a few barograms.
+Paris costs those who cost themselves.
+No panelist is a mounting-block.
+Bushy kneel, bushy dig.
+Bet for the variant, but prepare for the type.
+Too many disqualifications catch the exile.
+Two foreheads don't make a occiput.
+...
