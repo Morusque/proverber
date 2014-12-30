@@ -10,13 +10,16 @@
 // TODO define a list of obligatory fields for each nature of words
 // TODO if a required declension is not present ask for another word
 // TODO add more proper nouns with the floodfill tool
+// TODO add fields for all the grammar.txt file terms
+// TODO allow the generation of a proverb based on a given word
+// TODO deal with the fact that singular "fauna" is synonymous of plural "animals", but it doesn't work the other way
 
 XML dico;
 XML proverbs;
 
 void setup() {
-  dico = loadXML(dataPath("dico.xml"));
-  proverbs = loadXML(dataPath("proverbs.xml"));
+  dico = loadXML(("dico.xml"));
+  proverbs = loadXML(("proverbs.xml"));
 }
 
 void keyPressed() {
@@ -149,8 +152,8 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
         boolean oneMatchFound = false;
         for (XML node : pool.get (j).getChildren (check.getString ("node"))) {
           boolean matchesSoFar = true;
-          for (String attrName : check.listAttributes ()) {
-            if (!attrName.equals("node")) { 
+          for (String attrName : listAttributesJs (check)) {
+            if (!attrName.equals("node")) {
               if (!node.hasAttribute(attrName)) matchesSoFar=false;
               else if (!check.getString(attrName).equals(node.getString(attrName))) matchesSoFar=false;
             }
@@ -177,8 +180,8 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
       for (XML declension : chosenWord.getChildren ("declension")) {
         boolean declensionIsOk=true;
         if (chunk.getChildren("declension").length>0) {
-          for (int d=0; d<chunk.getChild ("declension").listAttributes().length; d++) {
-            String thisAttribute = chunk.getChild("declension").listAttributes()[d];
+          for (int d=0; d<chunk.getChild ("declension").getAttributeCount(); d++) {
+            String thisAttribute = listAttributesJs(chunk.getChild("declension"))[d];
             if (declension.hasAttribute(thisAttribute)) {
               if (!declension.getString(thisAttribute).equals(chunk.getChild("declension").getString(thisAttribute))) {
                 declensionIsOk=false;
@@ -203,5 +206,17 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
     // process "info" statements
     for (XML info : chunk.getChildren ("info")) result[index].id = info.getInt("id");
   }
+}
+
+String[] listAttributesJs(XML node) {
+  // for some reason listAttributes doesn't work in procesing.js so here is my slow and ugly alternative
+  ArrayList<String> resultD = new ArrayList<String>(); 
+  String[] nodeTxts = node.toString().split(" ");
+  for (String nodeTxt : nodeTxts) {
+    if (nodeTxt.contains("=")) resultD.add(nodeTxt.split("=")[0]);
+  }
+  String[] result = new String[resultD.size()];
+  for (int i=0; i<result.length; i++) result[i]=resultD.get(i);
+  return result;
 }
 
