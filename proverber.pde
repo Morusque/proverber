@@ -17,13 +17,18 @@
 XML dico;
 XML proverbs;
 
+boolean js = true;
+
 void setup() {
   dico = loadXML(("dico.xml"));
   proverbs = loadXML(("proverbs.xml"));
+  writeAProverb();
 }
 
 void keyPressed() {
-  if (keyCode==ENTER) println(generate(-1));
+  if (keyCode==ENTER) {
+    writeAProverb();
+  }
   if (keyCode==TAB) {
     for (int i=0; i<23; i++) {
       ArrayList<String> ps = new ArrayList<String>();
@@ -41,6 +46,11 @@ void keyPressed() {
 }
 
 void draw() {
+}
+
+void writeAProverb() {
+  if (js) document.getElementById("proverb").innerHTML += generate(-1) + "<br/>";
+  else println(generate(-1));
 }
 
 String generate(int proverbId) {
@@ -210,6 +220,7 @@ void generateChunk(ArrayList<XML> chunks, Chunk[] result, int index, XML dico) {
 
 String[] listAttributesJs(XML node) {
   // for some reason listAttributes doesn't work in procesing.js so here is my slow and ugly alternative
+  if (!js) return node.listAttributes ();
   ArrayList<String> resultD = new ArrayList<String>(); 
   String[] nodeTxts = node.toString().split(" ");
   for (String nodeTxt : nodeTxts) {
