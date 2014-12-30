@@ -318,6 +318,8 @@
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
 				<!--<property type="class" value="concept"/>-->
+				<check node="link" relation="synonym" />
+				<info id="0" />
 				<declension number="singular"/>
 			</chunk>
 			<chunk type="static" text=" is the " />
@@ -328,8 +330,9 @@
 			</chunk>			
 			<chunk type="static" text=" part of " />
 			<chunk type="query">
+				<pool type="link" id="0" relation="synonym" />
 				<property type="nature" value="common noun"/>
-				<property type="class" value="concept"/>
+				<!--<property type="class" value="concept"/>-->
 				<declension number="singular"/>
 			</chunk>
 			<chunk type="static" text="." />
