@@ -6,13 +6,13 @@
 			<chunk type="query">
 				<!--<property type="class" value="concept"/>-->
 				<property type="nature" value="common noun"/>
-				<!--<check node="link" relation="antonym" />-->
+				<check node="link" relation="antonym" />
 				<declension number="plural"/>
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text=" don't make a " />
 			<chunk type="query">
-				<!--<pool type="link" id="0" relation="antonym" />-->
+				<pool type="link" id="0" relation="antonym" />
 				<property type="nature" value="common noun"/>
 				<declension number="singular"/>
 			</chunk>
@@ -118,7 +118,7 @@
 			<chunk type="query">
 				<!--<property type="class" value="concept"/>-->
 				<property type="nature" value="common noun"/>
-				<!--<check node="link" relation="antonym" />-->
+				<check node="link" relation="antonym" />
 				<declension number="singular"/>
 				<info id="0" />
 			</chunk>
@@ -130,7 +130,7 @@
 			</chunk>
 			<chunk type="static" text=" for the " />
 			<chunk type="query">
-				<!--<pool type="link" id="0" relation="antonym" />-->
+				<pool type="link" id="0" relation="antonym" />
 				<property type="nature" value="common noun"/>
 				<declension number="singular"/>
 			</chunk>		
@@ -234,7 +234,7 @@
 			<chunk type="query">
 				<property type="nature" value="common noun"/>
 				<declension number="plural" />
-				<!--<check node="link" relation="antonym" />-->
+				<check node="link" relation="antonym" />
 				<info id="0" />
 			</chunk>
 			<chunk type="static" text=" " />
@@ -245,7 +245,7 @@
 			</chunk>
 			<chunk type="static" text=" and your " />
 			<chunk type="query">
-				<!--<pool type="link" id="0" relation="antonym" />-->
+				<pool type="link" id="0" relation="antonym" />
 				<property type="nature" value="common noun"/>
 				<declension number="plural" />
 			</chunk>
