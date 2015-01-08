@@ -19,13 +19,14 @@
 			<chunk type="static" text="." />
 		</structure>
 	</proverb>
-	<!--<proverb>
+	<proverb>
 		<example>When in Rome, do as the Romans.</example>
 		<structure>
 			<chunk type="static" text="When in " />
 			<chunk type="query">
 				<property type="class" value="city"/>
 				<property type="nature" value="proper noun"/>
+				<check node="link" relation="demonym" />
 				<declension number="singular"/>
 				<info id="0" />
 			</chunk>
@@ -37,7 +38,7 @@
 			</chunk>
 			<chunk type="static" text="." />
 		</structure>
-	</proverb>-->
+	</proverb>
 	<!--<proverb>
 		<example>All ways lead to Rome.</example>
 		<define>

@@ -13,11 +13,12 @@
 // TODO add fields for all the grammar.txt file terms
 // TODO allow the generation of a proverb based on a given word
 // TODO deal with the fact that singular "fauna" is synonymous of plural "animals", but it doesn't work the other way
+// TODO replace "classes" in dico by "links" (i.e. for Milan<-City)
 
 XML dico;
 XML proverbs;
 
-boolean js = true;
+boolean js = false;
 
 void setup() {
   dico = loadXML(("dico.xml"));
@@ -49,8 +50,11 @@ void draw() {
 }
 
 void writeAProverb() {
+  /*
   if (js) document.getElementById("proverb").innerHTML += generate(-1) + "<br/>";
-  else println(generate(-1));
+   else println(generate(-1));
+   */
+  println(generate(1));
 }
 
 String generate(int proverbId) {
@@ -230,4 +234,3 @@ String[] listAttributesJs(XML node) {
   for (int i=0; i<result.length; i++) result[i]=resultD.get(i);
   return result;
 }
-
