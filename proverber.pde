@@ -1,22 +1,19 @@
 
-// TODO automatize checks (= check requirements + check related ids in advance)
+// TODO automatize checks (= check requirements + check related ids in advance), if a required declension is not present ask for another word
 // TODO name objects better to differentiate xml and Chunk class
 // TODO add choices (i.e either common or proper noun)
 // TODO how to know if "a" or "an" should be used (it needs to stay generic)
-// TODO generate a large bunch of them, spot duplicates and then either remove very specific parameters or expand dico to balance the results 
-// TODO you can say "it favors the bold" but possibly not "it favors the far", define an attribute to make the distinction
 // TODO "there's no place like home" but "there's no animal like a duck", define attribute to know if it has to add "a" before the noun
-// TODO make adverbs a declension of adjectives ?
-// TODO define a list of obligatory fields for each nature of words
-// TODO if a required declension is not present ask for another word
-// TODO add more proper nouns with the floodfill tool
+// TODO make adverbs a declension of adjectives ? or make links between them ?
+// TODO define a list of obligatory and potential fields for each nature of words
+// TODO define a list of possible relations between words, currently : antonym, synonym, related, demonym/demonym of, particular of, qualifies (remove this one?), opposition (remove this one?), generic (remove this one?), check what Wordnik uses and add new fields maybe
 // TODO add fields for all the grammar.txt file terms
-// TODO allow the generation of a proverb based on a given word
+// TODO allow the generation of a proverb based on a given word (to answer twitter for instance)
+// TODO automatize the analysis of existing proverb to generate a structure (that would be awesome but well...)
 // TODO deal with the fact that singular "fauna" is synonymous of plural "animals", but it doesn't work the other way
 // TODO replace "classes" in dico by "links" (i.e. for Milan<-City)
-// TODO limit the use of adjectives with no comparative/superlative declension (i.e. demonymal)
 // TODO add very common english words to the dico and remove words that aren't common and have no link or rare property
-
+ 
 XML dico;
 XML proverbs;
 
@@ -31,20 +28,6 @@ void setup() {
 void keyPressed() {
   if (keyCode==ENTER) {
     writeAProverb();
-  }
-  if (keyCode==TAB) {
-    for (int i=0; i<23; i++) {
-      ArrayList<String> ps = new ArrayList<String>();
-      int dup=0;
-      for (int j=0; j<500; j++) {
-        String p = generate(i);
-        boolean found=false;
-        for (int k=0; k<ps.size ( )&& !found; k++) if (p.equals(ps.get(k))) found=true;
-        if (found) dup++;
-        ps.add(p);
-      }
-      println (i+" : "+dup);
-    }
   }
 }
 
