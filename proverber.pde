@@ -1,5 +1,5 @@
 
-// TODO automatize checks
+// TODO automatize checks (= check requirements + check related ids in advance)
 // TODO name objects better to differentiate xml and Chunk class
 // TODO add choices (i.e either common or proper noun)
 // TODO how to know if "a" or "an" should be used (it needs to stay generic)
