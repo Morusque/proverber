@@ -39,7 +39,7 @@
 			<chunk type="static" text="." />
 		</structure>
 	</proverb>
-	<!--<proverb>
+	<proverb>
 		<example>All ways lead to Rome.</example>
 		<define>
 			<chunk type="query">
@@ -64,7 +64,7 @@
 			</chunk>			
 			<chunk type="static" text="." />
 		</structure>
-	</proverb>-->
+	</proverb>
 	<proverb>
 		<example>The pen is mightier than the sword.</example>
 		<structure>

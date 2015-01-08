@@ -18,7 +18,7 @@
 XML dico;
 XML proverbs;
 
-boolean js = false;
+boolean js = false;// TODO is there a way to hande that better ? like with compiler instructions or something...
 
 void setup() {
   dico = loadXML(("dico.xml"));
@@ -54,7 +54,7 @@ void writeAProverb() {
   if (js) document.getElementById("proverb").innerHTML += generate(-1) + "<br/>";
    else println(generate(-1));
    */
-  println(generate(1));
+  println(generate(-1));
 }
 
 String generate(int proverbId) {
