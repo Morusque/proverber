@@ -30,7 +30,13 @@
 				<declension number="singular"/>
 				<info id="0" />
 			</chunk>
-			<chunk type="static" text=", do as the " />
+			<chunk type="static" text=", " />
+			<chunk type="query">
+				<property type="nature" value="verb"/>
+				<property type="syntax" value="intransitive"/>
+				<declension tense="present" person="2" />
+			</chunk>
+			<chunk type="static" text=" as the " />
 			<chunk type="query">
 				<pool type="link" id="0" relation="demonym" />
 				<property type="nature" value="demonym"/>
