@@ -14,6 +14,7 @@
 // TODO allow the generation of a proverb based on a given word
 // TODO deal with the fact that singular "fauna" is synonymous of plural "animals", but it doesn't work the other way
 // TODO replace "classes" in dico by "links" (i.e. for Milan<-City)
+// TODO limit the use of adjectives with no comparative/superlative declension (i.e. demonymal)
 
 XML dico;
 XML proverbs;
