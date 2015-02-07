@@ -44,100 +44,102 @@ class Chunk {
   var $defined=false;// boolean
 }
 
-// ---fin de la traduction là--- 
-/*
-function generateChunk(ArrayList<XML> chunks, Chunk[] result, $index, XML dico) {
-  XML chunk = chunks.get($index);
-  if (chunk.getString("type").equals("static")) {
-    result[$index]=new Chunk();
-    result[$index].text = chunk.getString("text");
-    result[$index].defined = true;
+function generateChunk($chunks, $result, $index, $dico) {// $chunks[] = xml nodes, $result[] = Chunk objects, $index = index of both $chunks and $results, $dico = XML
+  $chunk = $chunks[$index];
+  if ($chunk.getAttribute("type")=="static") {
+    result[$index] = new Chunk();
+    result[$index]->text = $chunk->getAttribute("text");
+    result[$index]->defined = true;
   }
-  if (chunk.getString("type").equals("query")) {
+  if ($chunk->getAttribute("type")=="query") {
 
     // process "pool" statements
-    ArrayList<XML> pool = new ArrayList<XML>();
-    if (chunk.getChildren("pool").length==0) {
-      for (XML word : dico.getChildren ("word")) {
-        pool.add(word);
+    $pool = array();// XML array
+    if ($chunk->getChildren("pool")->length==0) {
+      foreach ($dico->getChildren("word") as $word) {
+        $pool[]=$word;
       }
     } else {
-      for (XML poolIndic : chunk.getChildren ("pool")) {
-        if (poolIndic.getString("type").equals("link")) {
-          int targetId = poolIndic.getInt("id");
-          int comparedChunkIndex = -1;
-          for (int i=0; i<chunks.size (); i++) if (chunks.get(i).getChildren("info").length>0) if (chunks.get(i).getChild("info").getInt("id")==targetId) comparedChunkIndex = i;
-          if (comparedChunkIndex>=0) {
-            if (result[comparedChunkIndex]==null) generateChunk(chunks, result, comparedChunkIndex, dico);// TODO it should never be null but instead "not defined"
-            else if (!result[comparedChunkIndex].defined) generateChunk(chunks, result, comparedChunkIndex, dico); 
-            XML compared = result[comparedChunkIndex].word;
-            for (XML link : compared.getChildren ("link")) {
-              if (link.getString("relation").equals(poolIndic.getString("relation"))) {
-                int finalTargetId = link.getInt("id");
-                for (XML word : dico.getChildren ("word")) {
-                  if (word.getInt("id")==finalTargetId) pool.add(word);
+      foreach ($chunk->getChildren("pool") as $poolIndic) {
+        if ($poolIndic->getAttribute("type")=="link") {
+          $targetId = $poolIndic->getAttribute("id");
+          $comparedChunkIndex = -1;
+          for ($i=0; $i<count($chunks); $i++) if ($chunks[$i]->getChildren("info")->length>0) if ($chunks[$i]->getChildren("info")->item(0)->getAttribute("id")==$targetId) $comparedChunkIndex = $i;
+          if ($comparedChunkIndex>=0) {
+            if ($result[$comparedChunkIndex]==null) generateChunk($chunks, $result, $comparedChunkIndex, $dico);// TODO it should never be null but instead "not defined"
+            else if (!$result[$comparedChunkIndex]->defined) generateChunk($chunks, $result, $comparedChunkIndex, $dico);
+            $compared = $result[$comparedChunkIndex]->word;// xml node
+            foreach ($compared->getChildren("link") as $link) {
+              if ($link->getAttribute("relation")==($poolIndic->getAttribute("relation"))) {
+                $finalTargetId = $link->getAttribute("id");// int
+                foreach ($dico->getChildren ("word") as $word) {// xml node
+                  if ($word->getAttribute("id")==$finalTargetId) $pool[]=$word;
                 }
               }
             }
           }
         }
-        if (poolIndic.getString("type").equals("defined")) {
-          int targetId = poolIndic.getInt("id");
-          int comparedChunkIndex = -1;
-          for (int i=0; i<chunks.size (); i++) if (chunks.get(i).getChildren("info").length>0) if (chunks.get(i).getChild("info").getInt("id")==targetId) comparedChunkIndex = i;
-          if (comparedChunkIndex>=0) {
-            if (result[comparedChunkIndex]==null) generateChunk(chunks, result, comparedChunkIndex, dico);// TODO it should never be null but instead "not defined"
-            else if (!result[comparedChunkIndex].defined) generateChunk(chunks, result, comparedChunkIndex, dico);
-            XML compared = result[comparedChunkIndex].word;
-            pool.add(compared);
+        if ($poolIndic->getAttribute("type")=="defined") {
+          $targetId = $poolIndic->getAttribute("id");// int
+          $comparedChunkIndex = -1;// int
+          for ($i=0; $i<count($chunks); $i++) if ($chunks[$i]->getChildren("info")->length>0) if ($chunks[$i]->getChildren("info")->item(0)->getAttribute("id")==$targetId) $comparedChunkIndex = $i;
+          if ($comparedChunkIndex>=0) {
+            if ($result[$comparedChunkIndex]==null) generateChunk($chunks, $result, $comparedChunkIndex, $dico);// TODO it should never be null but instead "not defined"
+            else if (!$result[$comparedChunkIndex]->defined) generateChunk($chunks, $result, $comparedChunkIndex, $dico);
+            $compared = $result[$comparedChunkIndex]->word;// xml
+            $pool[] = $compared;
           }
         }
       }
     }
 
     // process "property" statements
-    for (int j=0; j<pool.size (); j++) {
-      boolean allConditionsMatch=true;
-      for (XML condition : chunk.getChildren ("property")) {
-        String type = condition.getString("type");
-        String value = condition.getString("value");
-        boolean matchFound=false;
-        for (XML property : pool.get (j).getChildren ("property")) {
-          if (property.getString("type").equals(type)) {
-            if (property.getString("value").equals(value)) {
-              matchFound=true;
+	$currentPoolSize = count($pool);
+    for ($j=0; $j<$currentPoolSize; $j++) {
+      $allConditionsMatch=true;// boolean
+      foreach ($chunk->getChildren("property") as $condition) {// xml node
+        $type = $condition->getAttribute("type");// string
+        $value = $condition->getAttribute("value");// string
+        $matchFound=false;// boolean
+        foreach ($pool[$j]->getChildren("property") as $property) {// xml node
+          if ($property->getAttribute("type")==$type) {
+            if ($property->getAttribute("value")==$value) {
+              $matchFound=true;
             }
           }
         }
-        if (!matchFound) allConditionsMatch=false;
+        if (!$matchFound) $allConditionsMatch=false;
       }
-      if (!allConditionsMatch) pool.remove(j--);
+      if (!$allConditionsMatch) unset($pool[$j]);
     }
+	$pool = array_values($pool);
 
     // process "check" statements
-    for (XML check : chunk.getChildren ("check")) {
-      for (int j=0; j<pool.size (); j++) {
-        boolean oneMatchFound = false;
-        for (XML node : pool.get (j).getChildren (check.getString ("node"))) {
-          boolean matchesSoFar = true;
-          for (String attrName : listAttributesJs (check)) {
-            if (!attrName.equals("node")) {
-              if (!node.hasAttribute(attrName)) matchesSoFar=false;
-              else if (!check.getString(attrName).equals(node.getString(attrName))) matchesSoFar=false;
+    foreach ($chunk->getChildren("check") as $check) {
+	  $currentPoolSize = count($pool);
+      for ($j=0; $j<$currentPoolSize; $j++) {
+        $oneMatchFound = false;// boolean
+        foreach ($pool[$j]->getChildren($check->getAttribute("node")) as $node) {// xml node
+          $matchesSoFar = true;// boolean
+          foreach ($check->attributes as $attrName) {// string
+            if (!$attrName=="node") {
+              if (!$node->hasAttribute($attrName)) $matchesSoFar=false;
+              else if (!$check->getAttribute($attrName)==($node->getAttribute($attrName))) $matchesSoFar=false;
             }
           }
-          if (matchesSoFar) oneMatchFound=true;
+          if ($matchesSoFar) $oneMatchFound=true;
         }
-        if (!oneMatchFound) pool.remove(j--);
+        if (!$oneMatchFound) unset($pool[$j]);
       }
     }
+	$pool = array_values($pool);
 
     // TODO process "elude" statements (for both entire words, words to be omitted based on specific attributes)
 
     // pick word
-    XML chosenWord=null;
+    $chosenWord=null;// xml node
     try {
-      chosenWord = pool.get(floor(random(pool.size())));
+      $chosenWord = $pool[rand(0,count($pool)-1)];
     } 
     catch (Exception $e) {
 		echo "(pick word) : "+$index+" : "+$e->getMessage());
@@ -145,25 +147,25 @@ function generateChunk(ArrayList<XML> chunks, Chunk[] result, $index, XML dico) 
 
     // process "declension" statements
     try {
-      for (XML declension : chosenWord.getChildren ("declension")) {
-        boolean declensionIsOk=true;
-        if (chunk.getChildren("declension").length>0) {
-          for (int d=0; d<chunk.getChild ("declension").getAttributeCount(); d++) {
-            String thisAttribute = listAttributesJs(chunk.getChild("declension"))[d];
-            if (declension.hasAttribute(thisAttribute)) {
-              if (!declension.getString(thisAttribute).equals(chunk.getChild("declension").getString(thisAttribute))) {
-                declensionIsOk=false;
+      for ($chosenWord->getChildren("declension") as $declension) {// xlk node
+        $declensionIsOk=true;// boolean
+        if ($chunk->getChildren("declension")->length>0) {
+          for ($d=0; $d<count($chunk->getChildren("declension")->item(0)->attributes); $d++) {
+            $thisAttribute = $chunk->getChildren("declension")->item(0)->attributes[$d];
+            if ($declension->hasAttribute($thisAttribute)) {
+              if (!$declension->getAttribute($thisAttribute)==($chunk->getChildren("declension")->item(0)->getAttribute(thisAttribute))) {
+                $declensionIsOk=false;
               }
             } else {
               // TODO not sure if there should be this or not : declensionIsOk=false;
             }
           }
         }
-        if (declensionIsOk) {
-          result[$index] = new Chunk();
-          result[$index].text = declension.getString("text");
-          result[$index].word = chosenWord;
-          result[$index].defined=true;
+        if ($declensionIsOk) {
+          $result[$index] = new Chunk();
+          $result[$index]->text = $declension->getAttribute("text");
+          $result[$index]->word = $chosenWord;
+          $result[$index]->defined=true;
         }
       }
     } 
@@ -172,9 +174,8 @@ function generateChunk(ArrayList<XML> chunks, Chunk[] result, $index, XML dico) 
     }
 
     // process "info" statements
-    for (XML info : chunk.getChildren ("info")) result[index].id = info.getInt("id");
+    foreach ($chunk->getChildren("info") as $info) $result[index]->id = $info->getAttribute("id");// xml node
   }
 }
-*/
 
 ?>
