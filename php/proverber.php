@@ -1,6 +1,6 @@
 <?php
 
-$dicoUrl = 'dico.xml';
+$dicoUrl = 'reducedDico.xml';
 $dicoDoc = new DOMDocument('1.0', 'utf-8');
 $dicoDoc->Load($dicoUrl);
 
@@ -155,7 +155,7 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
 			  for ($d=0; $d<count($chunk->getElementsByTagName("declension")->item(0)->attributes); $d++) {
 				$thisAttribute = $chunk->getElementsByTagName("declension")->item(0)->attributes->item($d)->nodeName;				
 				if ($declension->hasAttribute($thisAttribute)) {
-				  if (!$declension->getAttribute($thisAttribute)==($chunk->getElementsByTagName("declension")->item(0)->getAttribute($thisAttribute))) {
+				  if ($declension->getAttribute($thisAttribute)!=($chunk->getElementsByTagName("declension")->item(0)->getAttribute($thisAttribute))) {
 					$declensionIsOk=false;
 				  }
 				} else {
