@@ -123,10 +123,11 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
         $oneMatchFound = false;// boolean
         foreach ($pool[$j]->getElementsByTagName($check->getAttribute("node")) as $node) {// xml node
           $matchesSoFar = true;// boolean
-          foreach ($check->attributes as $attrName) {// string
-            if (!$attrName=="node") {
+          foreach ($check->attributes as $attr) {// string
+			$attrName = $attr->nodeName;
+            if ($attrName!="node") {
               if (!$node->hasAttribute($attrName)) $matchesSoFar=false;
-              else if (!$check->getAttribute($attrName)==($node->getAttribute($attrName))) $matchesSoFar=false;
+              else if ($check->getAttribute($attrName)!=($node->getAttribute($attrName))) $matchesSoFar=false;
             }
           }
           if ($matchesSoFar) $oneMatchFound=true;
@@ -148,18 +149,18 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
 
     // process "declension" statements
     try {
-		if ($chosenWord!=null) {// TODO it should never be null... this was not in the p5 version		
+		if ($chosenWord!=null) {// TODO it should never be null... I only added this for the case when I was testing with an empty pool	
 		  foreach ($chosenWord->getElementsByTagName("declension") as $declension) {// xml node
 			$declensionIsOk=true;// boolean
 			if ($chunk->getElementsByTagName("declension")->length>0) {
-			  for ($d=0; $d<count($chunk->getElementsByTagName("declension")->item(0)->attributes); $d++) {
+			  for ($d=0; $d<$chunk->getElementsByTagName("declension")->item(0)->attributes->length; $d++) {
 				$thisAttribute = $chunk->getElementsByTagName("declension")->item(0)->attributes->item($d)->nodeName;				
 				if ($declension->hasAttribute($thisAttribute)) {
 				  if ($declension->getAttribute($thisAttribute)!=($chunk->getElementsByTagName("declension")->item(0)->getAttribute($thisAttribute))) {
 					$declensionIsOk=false;
 				  }
 				} else {
-				  // TODO not sure if there should be this or not : declensionIsOk=false;
+				  // TODO still not sure if there should be this or not : declensionIsOk=false;
 				}
 			  }
 			}			
