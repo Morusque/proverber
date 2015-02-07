@@ -378,6 +378,7 @@
 		<structure>
 			<chunk type="query">
 				<property type="nature" value="proper noun"/>
+				<property type="class" value="individual"/>
 				<declension number="singular"/>
 			</chunk>
 			<chunk type="static" text=" " />

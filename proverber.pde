@@ -13,7 +13,7 @@
 // TODO deal with the fact that singular "fauna" is synonymous of plural "animals", but it doesn't work the other way
 // TODO replace "classes" in dico by "links" (i.e. for Milan<-City)
 // TODO add very common english words to the dico and remove words that aren't common and have no link or rare property
- 
+
 XML dico;
 XML proverbs;
 
