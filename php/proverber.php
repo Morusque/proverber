@@ -8,20 +8,29 @@ $proverbsUrl = 'proverbs.xml';
 $proverbsDoc = new DOMDocument('1.0', 'utf-8');
 $proverbsDoc->Load($proverbsUrl);
 
+$question = Array();
+if (strlen($questionStr)>0) $question = explode(" ",$questionStr);
+
 $entirePool = Array();// XML array
 foreach ($dicoDoc->getElementsByTagName("word") as $word) {
 	$entirePool[]=$word;
 }
 
-echo generate(-1,$proverbsDoc,$dicoDoc,$entirePool);
+return generate(-1,$proverbsDoc,$dicoDoc,$entirePool, $question);
+// echo generate(-1,$proverbsDoc,$dicoDoc,$entirePool,$question);
 
-function generate($proverbId,$proverbsDoc,$dicoDoc,$entirePool) {
+function generate($proverbId,$proverbsDoc,$dicoDoc,$entirePool, $question) {
   if ($proverbId==-1) $proverbId = rand(0,$proverbsDoc->getElementsByTagName("proverb")->length-1);
   $definedToGenerate = $proverbsDoc->getElementsByTagName("proverb")->item($proverbId)->getElementsByTagName("define")->item(0);
   $structureToGenerate = $proverbsDoc->getElementsByTagName("proverb")->item($proverbId)->getElementsByTagName("structure")->item(0);
   $chunks = Array();
   $sentence = Array();
-  if ($definedToGenerate!=null) foreach ($definedToGenerate->getElementsByTagName("proverb") as $chunk) $chunks[] = $chunk;
+  if ($definedToGenerate!=null) {
+	for ($i=0; $i<$definedToGenerate->getElementsByTagName("chunk")->length; $i++) {
+		$chunk = $definedToGenerate->getElementsByTagName("chunk")->item($i);
+		$chunks[]=$chunk;
+	}
+  }
   if ($structureToGenerate!=null) {
     for ($i=0; $i<$structureToGenerate->getElementsByTagName("chunk")->length; $i++) {
       $chunk = $structureToGenerate->getElementsByTagName("chunk")->item($i);
@@ -32,7 +41,7 @@ function generate($proverbId,$proverbsDoc,$dicoDoc,$entirePool) {
   $result = Array();// Chunk[]
   for ($i=0; $i<count($chunks); $i++) {
     $result[$i] = new Chunk();
-    if (!$result[$i]->defined) generateChunk($chunks, $result, $i, $dicoDoc, $entirePool);
+    if (!$result[$i]->defined) generateChunk($chunks, $result, $i, $dicoDoc, $entirePool, $question);
   }
   $result[$sentence[0]]->text = strtoupper(substr($result[$sentence[0]]->text,0,1)) . substr($result[$sentence[0]]->text,1);
   $sentenceStr = "";
@@ -47,8 +56,7 @@ class Chunk {
   var $defined=false;// boolean
 }
 
-function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks[] = xml nodes, $result[] = Chunk objects, $index = index of both $chunks and $results, $dico = XML
-
+function generateChunk($chunks, $result, $index, $dico, $entirePool, $question) {// $chunks[] = xml nodes, $result[] = Chunk objects, $index = index of both $chunks and $results, $dico = XML
   $chunk = $chunks[$index];// xml node
   if ($chunk->getAttribute("type")=="static") {
 	// $result[$index] = new Chunk();
@@ -68,13 +76,13 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
           $comparedChunkIndex = -1;
           for ($i=0; $i<count($chunks); $i++) if ($chunks[$i]->getElementsByTagName("info")->length>0) if ($chunks[$i]->getElementsByTagName("info")->item(0)->getAttribute("id")==$targetId) $comparedChunkIndex = $i;
           if ($comparedChunkIndex>=0) {
-            if ($result[$comparedChunkIndex]==null) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool);// TODO it should never be null but instead "not defined"
-            else if (!$result[$comparedChunkIndex]->defined) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool);
+            if ($result[$comparedChunkIndex]==null) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool, $question);// TODO it should never be null but instead "not defined"
+            else if (!$result[$comparedChunkIndex]->defined) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool, $question);
             $compared = $result[$comparedChunkIndex]->word;// xml node
             foreach ($compared->getElementsByTagName("link") as $link) {
               if ($link->getAttribute("relation")==($poolIndic->getAttribute("relation"))) {
                 $finalTargetId = $link->getAttribute("id");// int
-                foreach ($dico->getElementsByTagName("word") as $word) {// xml node
+                foreach ($entirePool as $word) {// xml node
                   if ($word->getAttribute("id")==$finalTargetId) $pool[]=$word;
                 }
               }
@@ -86,15 +94,15 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
           $comparedChunkIndex = -1;// int
           for ($i=0; $i<count($chunks); $i++) if ($chunks[$i]->getElementsByTagName("info")->length>0) if ($chunks[$i]->getElementsByTagName("info")->item(0)->getAttribute("id")==$targetId) $comparedChunkIndex = $i;
           if ($comparedChunkIndex>=0) {
-            if ($result[$comparedChunkIndex]==null) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool);// TODO it should never be null but instead "not defined"
-            else if (!$result[$comparedChunkIndex]->defined) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool);
+            if ($result[$comparedChunkIndex]==null) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool, $question);// TODO it should never be null but instead "not defined"
+            else if (!$result[$comparedChunkIndex]->defined) generateChunk($chunks, $result, $comparedChunkIndex, $dico, $entirePool, $question);
             $compared = $result[$comparedChunkIndex]->word;// xml
             $pool[] = $compared;
           }
         }
       }
     }
-		
+
     // process "property" statements
 	$currentPoolSize = count($pool);
     for ($j=0; $j<$currentPoolSize; $j++) {
@@ -139,13 +147,43 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
 
     // TODO process "elude" statements (for both entire words, words to be omitted based on specific attributes)
 
+	$chosenWord=null;// xml node
+	
+	// try to pick word to fit with the question
+	$qwFound=false;
+	if (count($question)>0) {
+		foreach ($pool as $word) {
+			foreach ($word->getElementsByTagName("declension") as $decl) {
+				$wordStr = $decl->getAttribute("text");
+				foreach ($question as $qWord) {
+					if ($wordStr==$qWord) {
+						$qwFound = true;
+						$chosenWord = $word;
+					}
+				}
+			}
+		}
+	}
+	if ($chosenWord!=null) {
+		for ($i=0;$i<count($question);$i++) {
+			$qWord = $question[$i];
+			foreach ($chosenWord->getElementsByTagName("declension") as $decl) {
+				$wordStr = $decl->getAttribute("text");
+				if ($wordStr==$qWord) {
+					unset($question[$i]);
+				}
+			}
+		}
+	}
+
     // pick word
-    $chosenWord=null;// xml node
-    try {
-      $chosenWord = $pool[rand(0,count($pool)-1)];
-    } catch (Exception $e) {
-		echo "(pick word) : ".$index." : ".$e->getMessage();
-    }
+	if ($chosenWord==null) {
+		try {
+		  $chosenWord = $pool[rand(0,count($pool)-1)];
+		} catch (Exception $e) {
+			echo "(pick word) : ".$index." : ".$e->getMessage();
+		}
+	}
 
     // process "declension" statements
     try {
@@ -177,7 +215,7 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool) {// $chunks
     }
 
     // process "info" statements
-    foreach ($chunk->getElementsByTagName("info") as $info) $result[index]->id = $info->getAttribute("id");// xml node
+    foreach ($chunk->getElementsByTagName("info") as $info) $result[$index]->id = $info->getAttribute("id");// xml node
   }
 
 }

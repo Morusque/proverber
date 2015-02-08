@@ -61,7 +61,7 @@
 				<pool type="link" id="0" relation="synonym" />
 				<property type="nature" value="common noun"/>
 				<declension number="plural"/>
-			</chunk>			
+			</chunk>
 			<chunk type="static" text=" lead to " />
 			<chunk type="query">
 				<property type="class" value="city"/>
