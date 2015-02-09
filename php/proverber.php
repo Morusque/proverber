@@ -56,7 +56,7 @@ class Chunk {
   var $defined=false;// boolean
 }
 
-function generateChunk($chunks, $result, $index, $dico, $entirePool, $question) {// $chunks[] = xml nodes, $result[] = Chunk objects, $index = index of both $chunks and $results, $dico = XML
+function generateChunk($chunks, $result, $index, $dico, $entirePool, &$question) {// $chunks[] = xml nodes, $result[] = Chunk objects, $index = index of both $chunks and $results, $dico = XML, $question[] = string
   $chunk = $chunks[$index];// xml node
   if ($chunk->getAttribute("type")=="static") {
 	// $result[$index] = new Chunk();
@@ -150,30 +150,22 @@ function generateChunk($chunks, $result, $index, $dico, $entirePool, $question) 
 	$chosenWord=null;// xml node
 	
 	// try to pick word to fit with the question
-	$qwFound=false;
+	$qwToRemove=-1;
 	if (count($question)>0) {
 		foreach ($pool as $word) {
 			foreach ($word->getElementsByTagName("declension") as $decl) {
 				$wordStr = $decl->getAttribute("text");
-				foreach ($question as $qWord) {
-					if ($wordStr==$qWord) {
-						$qwFound = true;
+				for ($i=0;$i<count($question);$i++) {
+					if ($wordStr==$question[$i]) {
+						$qwToRemove = $i;
 						$chosenWord = $word;
 					}
 				}
 			}
 		}
 	}
-	if ($chosenWord!=null) {
-		for ($i=0;$i<count($question);$i++) {
-			$qWord = $question[$i];
-			foreach ($chosenWord->getElementsByTagName("declension") as $decl) {
-				$wordStr = $decl->getAttribute("text");
-				if ($wordStr==$qWord) {
-					unset($question[$i]);
-				}
-			}
-		}
+	if ($qwToRemove!=-1) {
+		unset($question[$qwToRemove]);
 	}
 
     // pick word
