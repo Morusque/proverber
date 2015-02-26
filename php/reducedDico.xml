@@ -133,7 +133,7 @@
     <declension form="superlative" text="mightiest"/>
     <link id="12" relation="qualifies"/>
     <link id="7016" relation="synonym"/>
-    <link id="6107" relation="synonym"/>
+    <link id="6107" relation="related"/>
   </word>
   <word id="14">
     <property type="nature" value="common noun"/>
@@ -187,12 +187,12 @@
     <declension person="2" tense="past" text="were"/>
     <declension person="3" tense="past" text="was"/>
     <declension tense="participle" text="been"/>
-    <link id="9027" relation="synonym"/>
+    <link id="9027" relation="related"/>
     <link id="30781" relation="synonym"/>
-    <link id="20068" relation="synonym"/>
+    <link id="20068" relation="related"/>
     <link id="30847" relation="synonym"/>
-    <link id="6834" relation="synonym"/>
-    <link id="24689" relation="synonym"/>
+    <link id="6834" relation="related"/>
+    <link id="24689" relation="related"/>
     <link id="30894" relation="synonym"/>
   </word>
   <word id="19">
@@ -380,7 +380,7 @@
     <declension tense="participle" text="lived"/>
     <link id="30783" relation="synonym"/>
     <link id="30745" relation="synonym"/>
-    <link id="6829" relation="synonym"/>
+    <link id="6829" relation="related"/>
   </word>
   <word id="38">
     <property type="nature" value="verb"/>
@@ -393,9 +393,9 @@
     <declension tense="past" text="slept"/>
     <declension tense="participle" text="slept"/>
     <link id="30825" relation="synonym"/>
-    <link id="13735" relation="synonym"/>
-    <link id="26357" relation="synonym"/>
-    <link id="28947" relation="synonym"/>
+    <link id="13735" relation="related"/>
+    <link id="26357" relation="related"/>
+    <link id="28947" relation="related"/>
     <link id="17646" relation="related"/>
     <link id="21099" relation="related"/>
     <link id="21722" relation="related"/>
@@ -460,8 +460,8 @@
     <link id="28406" relation="synonym"/>
     <link id="22398" relation="synonym"/>
     <link id="18817" relation="synonym"/>
-    <link id="30745" relation="synonym"/>
-    <link id="30783" relation="synonym"/>
+    <link id="30745" relation="related"/>
+    <link id="30783" relation="related"/>
     <link id="19149" relation="synonym"/>
   </word>
   <word id="44">
@@ -620,13 +620,13 @@
     <link id="6954" relation="synonym"/>
     <link id="6760" relation="synonym"/>
     <link id="7002" relation="synonym"/>
-    <link id="30873" relation="synonym"/>
-    <link id="11521" relation="synonym"/>
-    <link id="22664" relation="synonym"/>
-    <link id="16446" relation="synonym"/>
-    <link id="8199" relation="synonym"/>
-    <link id="14184" relation="synonym"/>
-    <link id="17892" relation="synonym"/>
+    <link id="30873" relation="related"/>
+    <link id="11521" relation="related"/>
+    <link id="22664" relation="related"/>
+    <link id="16446" relation="related"/>
+    <link id="8199" relation="related"/>
+    <link id="14184" relation="related"/>
+    <link id="17892" relation="related"/>
     <link id="6893" relation="synonym"/>
     <link id="6949" relation="synonym"/>
     <link id="7063" relation="synonym"/>
@@ -819,10 +819,10 @@
     <declension tense="past" text="made"/>
     <declension tense="participle" text="made"/>
     <link id="70" relation="synonym"/>
-    <link id="6678" relation="synonym"/>
+    <link id="6678" relation="related"/>
     <link id="20" relation="synonym"/>
-    <link id="27565" relation="synonym"/>
-    <link id="11587" relation="synonym"/>
+    <link id="27565" relation="related"/>
+    <link id="11587" relation="related"/>
   </word>
   <word id="70">
     <property type="nature" value="verb"/>
@@ -836,9 +836,9 @@
     <declension tense="past" text="did"/>
     <declension tense="participle" text="done"/>
     <link id="69" relation="synonym"/>
-    <link id="9027" relation="synonym"/>
+    <link id="9027" relation="related"/>
     <link id="30785" relation="synonym"/>
-    <link id="23457" relation="synonym"/>
+    <link id="23457" relation="related"/>
   </word>
   <word id="72">
     <property type="nature" value="common noun"/>
@@ -863,11 +863,11 @@
     <declension tense="participle" text="broken"/>
     <link id="30763" relation="synonym"/>
     <link id="30909" relation="synonym"/>
-    <link id="25371" relation="synonym"/>
-    <link id="15630" relation="synonym"/>
-    <link id="15242" relation="synonym"/>
-    <link id="25125" relation="synonym"/>
-    <link id="18256" relation="synonym"/>
+    <link id="25371" relation="related"/>
+    <link id="15630" relation="related"/>
+    <link id="15242" relation="related"/>
+    <link id="25125" relation="related"/>
+    <link id="18256" relation="related"/>
     <link id="30850" relation="synonym"/>
   </word>
   <word id="74">
@@ -885,12 +885,12 @@
     <declension person="3" tense="present" text="helps"/>
     <declension tense="past" text="helped"/>
     <declension tense="participle" text="helped"/>
-    <link id="9027" relation="synonym"/>
-    <link id="8361" relation="synonym"/>
-    <link id="8598" relation="synonym"/>
-    <link id="27722" relation="synonym"/>
-    <link id="24747" relation="synonym"/>
-    <link id="24952" relation="synonym"/>
+    <link id="9027" relation="related"/>
+    <link id="8361" relation="related"/>
+    <link id="8598" relation="related"/>
+    <link id="27722" relation="related"/>
+    <link id="24747" relation="related"/>
+    <link id="24952" relation="related"/>
   </word>
   <word id="76">
     <property type="nature" value="verb"/>
@@ -923,8 +923,8 @@
     <link id="30897" relation="synonym"/>
     <link id="30906" relation="synonym"/>
     <link id="30812" relation="synonym"/>
-    <link id="20890" relation="synonym"/>
-    <link id="30293" relation="synonym"/>
+    <link id="20890" relation="related"/>
+    <link id="30293" relation="related"/>
   </word>
   <word id="80">
     <property type="nature" value="common noun"/>
@@ -949,8 +949,8 @@
     <declension tense="past" text="fed"/>
     <declension tense="participle" text="fed"/>
     <link id="30784" relation="synonym"/>
-    <link id="23866" relation="synonym"/>
-    <link id="15413" relation="synonym"/>
+    <link id="23866" relation="related"/>
+    <link id="15413" relation="related"/>
   </word>
   <word id="82">
     <property type="nature" value="verb"/>
@@ -986,14 +986,14 @@
     <declension person="3" tense="present" text="spoils"/>
     <declension tense="past" text="spoilt"/>
     <declension tense="participle" text="spoilt"/>
-    <link id="6962" relation="synonym"/>
-    <link id="23686" relation="synonym"/>
-    <link id="13035" relation="synonym"/>
-    <link id="25413" relation="synonym"/>
-    <link id="24355" relation="synonym"/>
-    <link id="27098" relation="synonym"/>
-    <link id="12603" relation="synonym"/>
-    <link id="29972" relation="synonym"/>
+    <link id="6962" relation="related"/>
+    <link id="23686" relation="related"/>
+    <link id="13035" relation="related"/>
+    <link id="25413" relation="related"/>
+    <link id="24355" relation="related"/>
+    <link id="27098" relation="related"/>
+    <link id="12603" relation="related"/>
+    <link id="29972" relation="related"/>
   </word>
   <word id="85">
     <property type="nature" value="common noun"/>
@@ -1061,16 +1061,16 @@
     <declension tense="past" text="went"/>
     <declension tense="participle" text="gone"/>
     <link id="89" relation="antonym"/>
-    <link id="94" relation="synonym"/>
+    <link id="94" relation="related"/>
     <link id="30785" relation="synonym"/>
-    <link id="30001" relation="synonym"/>
-    <link id="27593" relation="synonym"/>
-    <link id="7905" relation="synonym"/>
-    <link id="20320" relation="synonym"/>
-    <link id="22678" relation="synonym"/>
-    <link id="10965" relation="synonym"/>
-    <link id="21547" relation="synonym"/>
-    <link id="16904" relation="synonym"/>
+    <link id="30001" relation="related"/>
+    <link id="27593" relation="related"/>
+    <link id="7905" relation="related"/>
+    <link id="20320" relation="related"/>
+    <link id="22678" relation="related"/>
+    <link id="10965" relation="related"/>
+    <link id="21547" relation="related"/>
+    <link id="16904" relation="related"/>
     <link id="30895" relation="synonym"/>
   </word>
   <word id="91">
@@ -1121,7 +1121,7 @@
     <link id="14913" relation="synonym"/>
     <link id="29662" relation="synonym"/>
     <link id="25704" relation="synonym"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
   </word>
   <word id="96">
     <property type="nature" value="verb"/>
@@ -1151,7 +1151,7 @@
     <property type="nature" value="adverb"/>
     <declension text="quickly"/>
     <link id="99" relation="antonym"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="99">
     <property type="nature" value="adverb"/>
@@ -1208,7 +1208,7 @@
   <word id="191">
     <property type="nature" value="adverb"/>
     <declension text="adequately"/>
-    <link id="14285" relation="synonym"/>
+    <link id="14285" relation="related"/>
   </word>
   <word id="220">
     <property type="nature" value="adverb"/>
@@ -1433,7 +1433,7 @@
   <word id="554">
     <property type="nature" value="adverb"/>
     <declension text="auspiciously"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
     <link id="1935" relation="synonym"/>
   </word>
   <word id="577">
@@ -1585,7 +1585,7 @@
   <word id="946">
     <property type="nature" value="adverb"/>
     <declension text="clear"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
   </word>
   <word id="957">
     <property type="nature" value="adverb"/>
@@ -1607,7 +1607,7 @@
     <property type="nature" value="adverb"/>
     <declension text="completely"/>
     <link id="330" relation="synonym"/>
-    <link id="6438" relation="synonym"/>
+    <link id="6438" relation="related"/>
     <link id="6052" relation="synonym"/>
   </word>
   <word id="1044">
@@ -1722,7 +1722,7 @@
   <word id="1421">
     <property type="nature" value="adverb"/>
     <declension text="dexterously"/>
-    <link id="6913" relation="synonym"/>
+    <link id="6913" relation="related"/>
   </word>
   <word id="1426">
     <property type="nature" value="adverb"/>
@@ -1756,9 +1756,9 @@
     <declension text="down"/>
     <link id="1610" relation="synonym"/>
     <link id="653" relation="synonym"/>
-    <link id="23927" relation="synonym"/>
-    <link id="12914" relation="synonym"/>
-    <link id="7130" relation="synonym"/>
+    <link id="23927" relation="related"/>
+    <link id="12914" relation="related"/>
+    <link id="7130" relation="related"/>
   </word>
   <word id="1610">
     <property type="nature" value="adverb"/>
@@ -1781,7 +1781,7 @@
   <word id="1667">
     <property type="nature" value="adverb"/>
     <declension text="easily"/>
-    <link id="6913" relation="synonym"/>
+    <link id="6913" relation="related"/>
   </word>
   <word id="1674">
     <property type="nature" value="adverb"/>
@@ -1803,7 +1803,7 @@
     <property type="nature" value="adverb"/>
     <declension text="entirely"/>
     <link id="330" relation="synonym"/>
-    <link id="6438" relation="synonym"/>
+    <link id="6438" relation="related"/>
     <link id="6052" relation="synonym"/>
   </word>
   <word id="1774">
@@ -1873,7 +1873,7 @@
   <word id="1887">
     <property type="nature" value="adverb"/>
     <declension text="expeditiously"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="1898">
     <property type="nature" value="adverb"/>
@@ -1917,7 +1917,7 @@
   <word id="1969">
     <property type="nature" value="adverb"/>
     <declension text="favorably"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
     <link id="1935" relation="synonym"/>
   </word>
   <word id="1972">
@@ -1939,7 +1939,7 @@
   <word id="2022">
     <property type="nature" value="adverb"/>
     <declension text="firmly"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="2023">
     <property type="nature" value="adverb"/>
@@ -1948,7 +1948,7 @@
   <word id="2035">
     <property type="nature" value="adverb"/>
     <declension text="fixedly"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="2094">
     <property type="nature" value="adverb"/>
@@ -1989,7 +1989,7 @@
   <word id="2146">
     <property type="nature" value="adverb"/>
     <declension text="frankly"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
   </word>
   <word id="2153">
     <property type="nature" value="adverb"/>
@@ -2026,7 +2026,7 @@
   <word id="2193">
     <property type="nature" value="adverb"/>
     <declension text="fully"/>
-    <link id="14285" relation="synonym"/>
+    <link id="14285" relation="related"/>
   </word>
   <word id="2197">
     <property type="nature" value="adverb"/>
@@ -2092,13 +2092,13 @@
     <property type="nature" value="adverb"/>
     <declension text="greatly"/>
     <link id="595" relation="synonym"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="2340">
     <property type="nature" value="adverb"/>
     <declension text="grievously"/>
     <link id="595" relation="synonym"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="2355">
     <property type="nature" value="adverb"/>
@@ -2199,7 +2199,7 @@
   <word id="2529">
     <property type="nature" value="adverb"/>
     <declension text="honestly"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
     <link id="3166" relation="synonym"/>
   </word>
   <word id="2547">
@@ -2239,12 +2239,12 @@
   <word id="2659">
     <property type="nature" value="adverb"/>
     <declension text="immovably"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="2663">
     <property type="nature" value="adverb"/>
     <declension text="impartially"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
     <link id="1935" relation="synonym"/>
     <link id="3166" relation="synonym"/>
   </word>
@@ -2717,7 +2717,7 @@
   <word id="3844">
     <property type="nature" value="adverb"/>
     <declension text="openly"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
     <link id="1935" relation="synonym"/>
     <link id="4351" relation="synonym"/>
     <link id="5937" relation="synonym"/>
@@ -2815,7 +2815,7 @@
   <word id="4039">
     <property type="nature" value="adverb"/>
     <declension text="perfectly"/>
-    <link id="6438" relation="synonym"/>
+    <link id="6438" relation="related"/>
   </word>
   <word id="4043">
     <property type="nature" value="adverb"/>
@@ -2877,7 +2877,7 @@
   <word id="4195">
     <property type="nature" value="adverb"/>
     <declension text="post-haste"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="4200">
     <property type="nature" value="adverb"/>
@@ -2943,7 +2943,7 @@
   <word id="4413">
     <property type="nature" value="adverb"/>
     <declension text="quite"/>
-    <link id="6438" relation="synonym"/>
+    <link id="6438" relation="related"/>
   </word>
   <word id="4422">
     <property type="nature" value="adverb"/>
@@ -2953,7 +2953,7 @@
   <word id="4436">
     <property type="nature" value="adverb"/>
     <declension text="rapidly"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
     <link id="5329" relation="synonym"/>
     <link id="1957" relation="synonym"/>
     <link id="4193" relation="synonym"/>
@@ -3078,7 +3078,7 @@
   <word id="4809">
     <property type="nature" value="adverb"/>
     <declension text="severely"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="4835">
     <property type="nature" value="adverb"/>
@@ -3153,7 +3153,7 @@
   <word id="5002">
     <property type="nature" value="adverb"/>
     <declension text="softly"/>
-    <link id="6718" relation="synonym"/>
+    <link id="6718" relation="related"/>
   </word>
   <word id="5013">
     <property type="nature" value="adverb"/>
@@ -3183,7 +3183,7 @@
   <word id="5043">
     <property type="nature" value="adverb"/>
     <declension text="sorely"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="5050">
     <property type="nature" value="adverb"/>
@@ -3192,7 +3192,7 @@
   <word id="5081">
     <property type="nature" value="adverb"/>
     <declension text="speedily"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
   </word>
   <word id="5098">
     <property type="nature" value="adverb"/>
@@ -3246,7 +3246,7 @@
   <word id="5268">
     <property type="nature" value="adverb"/>
     <declension text="sufficiently"/>
-    <link id="14285" relation="synonym"/>
+    <link id="14285" relation="related"/>
   </word>
   <word id="5273">
     <property type="nature" value="adverb"/>
@@ -3273,7 +3273,7 @@
   <word id="5329">
     <property type="nature" value="adverb"/>
     <declension text="swiftly"/>
-    <link id="6538" relation="synonym"/>
+    <link id="6538" relation="related"/>
     <link id="4436" relation="synonym"/>
   </word>
   <word id="5450">
@@ -3312,7 +3312,7 @@
     <property type="nature" value="adverb"/>
     <declension text="thoroughly"/>
     <link id="330" relation="synonym"/>
-    <link id="6438" relation="synonym"/>
+    <link id="6438" relation="related"/>
   </word>
   <word id="5507">
     <property type="nature" value="adverb"/>
@@ -3509,7 +3509,7 @@
     <declension text="very"/>
     <link id="580" relation="synonym"/>
     <link id="595" relation="synonym"/>
-    <link id="13" relation="synonym"/>
+    <link id="13" relation="related"/>
   </word>
   <word id="6124">
     <property type="nature" value="adverb"/>
@@ -3571,7 +3571,7 @@
     <property type="nature" value="adverb"/>
     <declension text="wholly"/>
     <link id="330" relation="synonym"/>
-    <link id="6438" relation="synonym"/>
+    <link id="6438" relation="related"/>
     <link id="6052" relation="synonym"/>
   </word>
   <word id="6253">
@@ -3809,15 +3809,15 @@
     <declension form="comparative" text="blinder"/>
     <declension form="superlative" text="blindest"/>
     <link id="6775" relation="synonym"/>
-    <link id="26093" relation="synonym"/>
-    <link id="9277" relation="synonym"/>
-    <link id="9283" relation="synonym"/>
-    <link id="27707" relation="synonym"/>
-    <link id="23629" relation="synonym"/>
-    <link id="25374" relation="synonym"/>
-    <link id="27510" relation="synonym"/>
-    <link id="23624" relation="synonym"/>
-    <link id="15027" relation="synonym"/>
+    <link id="26093" relation="related"/>
+    <link id="9277" relation="related"/>
+    <link id="9283" relation="related"/>
+    <link id="27707" relation="related"/>
+    <link id="23629" relation="related"/>
+    <link id="25374" relation="related"/>
+    <link id="27510" relation="related"/>
+    <link id="23624" relation="related"/>
+    <link id="15027" relation="related"/>
   </word>
   <word id="6371">
     <property type="nature" value="adjective"/>
@@ -3857,7 +3857,7 @@
     <declension form="superlative" text="bluest"/>
     <link id="6886" relation="synonym"/>
     <link id="6600" relation="synonym"/>
-    <link id="8565" relation="synonym"/>
+    <link id="8565" relation="related"/>
   </word>
   <word id="6378">
     <property type="nature" value="adjective"/>
@@ -3929,7 +3929,7 @@
     <link id="6724" relation="synonym"/>
     <link id="6801" relation="synonym"/>
     <link id="6898" relation="synonym"/>
-    <link id="30774" relation="synonym"/>
+    <link id="30774" relation="related"/>
     <link id="6646" relation="synonym"/>
   </word>
   <word id="6392">
@@ -3956,8 +3956,8 @@
     <declension form="superlative" text="briefest"/>
     <link id="7052" relation="synonym"/>
     <link id="6897" relation="synonym"/>
-    <link id="14415" relation="synonym"/>
-    <link id="9658" relation="synonym"/>
+    <link id="14415" relation="related"/>
+    <link id="9658" relation="related"/>
   </word>
   <word id="6396">
     <property type="nature" value="adjective"/>
@@ -4148,12 +4148,12 @@
     <link id="6420" relation="synonym"/>
     <link id="6824" relation="synonym"/>
     <link id="6892" relation="synonym"/>
-    <link id="6251" relation="synonym"/>
-    <link id="4039" relation="synonym"/>
-    <link id="1026" relation="synonym"/>
-    <link id="4413" relation="synonym"/>
-    <link id="1770" relation="synonym"/>
-    <link id="5506" relation="synonym"/>
+    <link id="6251" relation="related"/>
+    <link id="4039" relation="related"/>
+    <link id="1026" relation="related"/>
+    <link id="4413" relation="related"/>
+    <link id="1770" relation="related"/>
+    <link id="5506" relation="related"/>
   </word>
   <word id="6439">
     <property type="nature" value="adjective"/>
@@ -4421,7 +4421,7 @@
     <declension form="adjective" text="dandy"/>
     <declension form="comparative" text="dandier"/>
     <declension form="superlative" text="dandiest"/>
-    <link id="30903" relation="synonym"/>
+    <link id="30903" relation="related"/>
   </word>
   <word id="6491">
     <property type="nature" value="adjective"/>
@@ -4456,7 +4456,7 @@
     <declension form="adjective" text="deadly"/>
     <declension form="comparative" text="deadlier"/>
     <declension form="superlative" text="deadliest"/>
-    <link id="18777" relation="synonym"/>
+    <link id="18777" relation="related"/>
   </word>
   <word id="6496">
     <property type="nature" value="adjective"/>
@@ -4705,15 +4705,15 @@
     <link id="6643" relation="synonym"/>
     <link id="6372" relation="synonym"/>
     <link id="6702" relation="synonym"/>
-    <link id="946" relation="synonym"/>
-    <link id="3844" relation="synonym"/>
-    <link id="2146" relation="synonym"/>
-    <link id="2529" relation="synonym"/>
-    <link id="1969" relation="synonym"/>
-    <link id="554" relation="synonym"/>
-    <link id="2663" relation="synonym"/>
-    <link id="8896" relation="synonym"/>
-    <link id="14788" relation="synonym"/>
+    <link id="946" relation="related"/>
+    <link id="3844" relation="related"/>
+    <link id="2146" relation="related"/>
+    <link id="2529" relation="related"/>
+    <link id="1969" relation="related"/>
+    <link id="554" relation="related"/>
+    <link id="2663" relation="related"/>
+    <link id="8896" relation="related"/>
+    <link id="14788" relation="related"/>
   </word>
   <word id="6538">
     <property type="nature" value="adjective"/>
@@ -4727,15 +4727,15 @@
     <link id="6557" relation="synonym"/>
     <link id="6829" relation="synonym"/>
     <link id="6965" relation="synonym"/>
-    <link id="5329" relation="synonym"/>
-    <link id="4436" relation="synonym"/>
-    <link id="98" relation="synonym"/>
-    <link id="4195" relation="synonym"/>
-    <link id="5081" relation="synonym"/>
-    <link id="1887" relation="synonym"/>
-    <link id="2035" relation="synonym"/>
-    <link id="2022" relation="synonym"/>
-    <link id="2659" relation="synonym"/>
+    <link id="5329" relation="related"/>
+    <link id="4436" relation="related"/>
+    <link id="98" relation="related"/>
+    <link id="4195" relation="related"/>
+    <link id="5081" relation="related"/>
+    <link id="1887" relation="related"/>
+    <link id="2035" relation="related"/>
+    <link id="2022" relation="related"/>
+    <link id="2659" relation="related"/>
     <link id="6648" relation="synonym"/>
     <link id="6884" relation="synonym"/>
   </word>
@@ -4839,7 +4839,7 @@
     <link id="6695" relation="antonym"/>
     <link id="6552" relation="antonym"/>
     <link id="6645" relation="synonym"/>
-    <link id="30863" relation="synonym"/>
+    <link id="30863" relation="related"/>
     <link id="6993" relation="synonym"/>
     <link id="7000" relation="synonym"/>
     <link id="7016" relation="synonym"/>
@@ -4886,8 +4886,8 @@
     <declension form="superlative" text="flattest"/>
     <link id="6935" relation="synonym"/>
     <link id="6988" relation="synonym"/>
-    <link id="10635" relation="synonym"/>
-    <link id="27762" relation="synonym"/>
+    <link id="10635" relation="related"/>
+    <link id="27762" relation="related"/>
   </word>
   <word id="6556">
     <property type="nature" value="adjective"/>
@@ -5169,9 +5169,9 @@
     <link id="6862" relation="synonym"/>
     <link id="6441" relation="synonym"/>
     <link id="6839" relation="synonym"/>
-    <link id="9027" relation="synonym"/>
-    <link id="29948" relation="synonym"/>
-    <link id="14649" relation="synonym"/>
+    <link id="9027" relation="related"/>
+    <link id="29948" relation="related"/>
+    <link id="14649" relation="related"/>
   </word>
   <word id="6609">
     <property type="nature" value="adjective"/>
@@ -5201,8 +5201,8 @@
     <link id="6987" relation="synonym"/>
     <link id="6499" relation="synonym"/>
     <link id="6830" relation="synonym"/>
-    <link id="26000" relation="synonym"/>
-    <link id="26002" relation="synonym"/>
+    <link id="26000" relation="related"/>
+    <link id="26002" relation="related"/>
     <link id="6718" relation="synonym"/>
     <link id="93" relation="synonym"/>
     <link id="6886" relation="synonym"/>
@@ -5556,7 +5556,7 @@
     <link id="6371" relation="synonym"/>
     <link id="6976" relation="synonym"/>
     <link id="6424" relation="synonym"/>
-    <link id="69" relation="synonym"/>
+    <link id="69" relation="related"/>
     <link id="6734" relation="synonym"/>
   </word>
   <word id="6680">
@@ -5583,12 +5583,12 @@
     <declension form="comparative" text="kinder"/>
     <declension form="superlative" text="kindest"/>
     <link id="6575" relation="synonym"/>
-    <link id="26962" relation="synonym"/>
-    <link id="21120" relation="synonym"/>
-    <link id="16055" relation="synonym"/>
-    <link id="27593" relation="synonym"/>
-    <link id="12947" relation="synonym"/>
-    <link id="18767" relation="synonym"/>
+    <link id="26962" relation="related"/>
+    <link id="21120" relation="related"/>
+    <link id="16055" relation="related"/>
+    <link id="27593" relation="related"/>
+    <link id="12947" relation="related"/>
+    <link id="18767" relation="related"/>
     <link id="6684" relation="synonym"/>
   </word>
   <word id="6684">
@@ -5713,8 +5713,8 @@
     <link id="6739" relation="synonym"/>
     <link id="7065" relation="synonym"/>
     <link id="6823" relation="synonym"/>
-    <link id="20484" relation="synonym"/>
-    <link id="20655" relation="synonym"/>
+    <link id="20484" relation="related"/>
+    <link id="20655" relation="related"/>
   </word>
   <word id="6707">
     <property type="nature" value="adjective"/>
@@ -5798,7 +5798,7 @@
     <link id="7089" relation="synonym"/>
     <link id="6615" relation="synonym"/>
     <link id="6592" relation="synonym"/>
-    <link id="5002" relation="synonym"/>
+    <link id="5002" relation="related"/>
     <link id="6870" relation="synonym"/>
   </word>
   <word id="6719">
@@ -5928,7 +5928,7 @@
     <declension form="superlative" text="minutest"/>
     <link id="6706" relation="synonym"/>
     <link id="7065" relation="synonym"/>
-    <link id="20196" relation="synonym"/>
+    <link id="20196" relation="related"/>
     <link id="67" relation="synonym"/>
   </word>
   <word id="6740">
@@ -6110,8 +6110,8 @@
     <declension form="superlative" text="noblest"/>
     <link id="6613" relation="synonym"/>
     <link id="6992" relation="synonym"/>
-    <link id="16412" relation="synonym"/>
-    <link id="11420" relation="antonym"/>
+    <link id="16412" relation="related"/>
+    <link id="11420" relation="opposition"/>
   </word>
   <word id="6771">
     <property type="nature" value="adjective"/>
@@ -6141,7 +6141,7 @@
     <link id="6600" relation="synonym"/>
     <link id="6650" relation="synonym"/>
     <link id="6718" relation="synonym"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="6740" relation="synonym"/>
     <link id="7080" relation="synonym"/>
     <link id="6666" relation="synonym"/>
@@ -6190,7 +6190,7 @@
     <link id="6534" relation="synonym"/>
     <link id="6775" relation="synonym"/>
     <link id="6854" relation="antonym"/>
-    <link id="17892" relation="synonym"/>
+    <link id="17892" relation="related"/>
     <link id="6902" relation="synonym"/>
     <link id="7099" relation="synonym"/>
   </word>
@@ -6199,7 +6199,7 @@
     <declension form="adjective" text="paltry"/>
     <declension form="comparative" text="paltrier"/>
     <declension form="superlative" text="paltriest"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="6918" relation="synonym"/>
     <link id="6919" relation="synonym"/>
     <link id="6959" relation="synonym"/>
@@ -6292,7 +6292,7 @@
     <declension form="adjective" text="poor"/>
     <declension form="comparative" text="poorer"/>
     <declension form="superlative" text="poorest"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="6762" relation="synonym"/>
     <link id="6910" relation="synonym"/>
     <link id="6699" relation="synonym"/>
@@ -6425,7 +6425,7 @@
     <declension form="superlative" text="quickest"/>
     <link id="6538" relation="synonym"/>
     <link id="6648" relation="synonym"/>
-    <link id="37" relation="synonym"/>
+    <link id="37" relation="related"/>
     <link id="7036" relation="synonym"/>
     <link id="6965" relation="synonym"/>
     <link id="6557" relation="synonym"/>
@@ -6473,10 +6473,10 @@
     <link id="6630" relation="synonym"/>
     <link id="6988" relation="synonym"/>
     <link id="6568" relation="synonym"/>
-    <link id="12743" relation="synonym"/>
-    <link id="14124" relation="synonym"/>
-    <link id="13430" relation="synonym"/>
-    <link id="18" relation="synonym"/>
+    <link id="12743" relation="related"/>
+    <link id="14124" relation="related"/>
+    <link id="13430" relation="related"/>
+    <link id="18" relation="related"/>
     <link id="7016" relation="synonym"/>
   </word>
   <word id="6835">
@@ -6747,7 +6747,7 @@
     <declension form="comparative" text="scurvier"/>
     <declension form="superlative" text="scurviest"/>
     <link id="6723" relation="synonym"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="6870" relation="synonym"/>
     <link id="6887" relation="synonym"/>
     <link id="7081" relation="synonym"/>
@@ -6761,7 +6761,7 @@
     <link id="6859" relation="synonym"/>
     <link id="6538" relation="synonym"/>
     <link id="6846" relation="antonym"/>
-    <link id="30802" relation="synonym"/>
+    <link id="30802" relation="related"/>
     <link id="7028" relation="synonym"/>
   </word>
   <word id="6885">
@@ -6769,7 +6769,7 @@
     <declension form="adjective" text="seemly"/>
     <declension form="comparative" text="seemlier"/>
     <declension form="superlative" text="seemliest"/>
-    <link id="30830" relation="synonym"/>
+    <link id="30830" relation="related"/>
   </word>
   <word id="6886">
     <property type="nature" value="adjective"/>
@@ -6800,7 +6800,7 @@
     <declension form="adjective" text="shabby"/>
     <declension form="comparative" text="shabbier"/>
     <declension form="superlative" text="shabbiest"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="6808" relation="synonym"/>
     <link id="7037" relation="synonym"/>
     <link id="6728" relation="synonym"/>
@@ -6995,8 +6995,8 @@
     <declension form="superlative" text="sleekest"/>
     <link id="6601" relation="synonym"/>
     <link id="6935" relation="synonym"/>
-    <link id="1667" relation="synonym"/>
-    <link id="1421" relation="synonym"/>
+    <link id="1667" relation="related"/>
+    <link id="1421" relation="related"/>
     <link id="6917" relation="synonym"/>
   </word>
   <word id="6914">
@@ -7038,7 +7038,7 @@
     <link id="6916" relation="synonym"/>
     <link id="6792" relation="synonym"/>
     <link id="6783" relation="synonym"/>
-    <link id="13383" relation="synonym"/>
+    <link id="13383" relation="related"/>
     <link id="6919" relation="synonym"/>
     <link id="67" relation="synonym"/>
     <link id="7089" relation="synonym"/>
@@ -7205,20 +7205,20 @@
     <declension form="superlative" text="sorest"/>
     <link id="6838" relation="synonym"/>
     <link id="6886" relation="synonym"/>
-    <link id="29436" relation="synonym"/>
-    <link id="24040" relation="synonym"/>
-    <link id="9242" relation="synonym"/>
-    <link id="15984" relation="synonym"/>
-    <link id="10641" relation="synonym"/>
-    <link id="10642" relation="synonym"/>
+    <link id="29436" relation="related"/>
+    <link id="24040" relation="related"/>
+    <link id="9242" relation="related"/>
+    <link id="15984" relation="related"/>
+    <link id="10641" relation="related"/>
+    <link id="10642" relation="related"/>
     <link id="8020" relation="related"/>
     <link id="23439" relation="related"/>
     <link id="21633" relation="related"/>
     <link id="23119" relation="related"/>
-    <link id="2340" relation="synonym"/>
-    <link id="5043" relation="synonym"/>
-    <link id="4809" relation="synonym"/>
-    <link id="2334" relation="synonym"/>
+    <link id="2340" relation="related"/>
+    <link id="5043" relation="related"/>
+    <link id="4809" relation="related"/>
+    <link id="2334" relation="related"/>
   </word>
   <word id="6959">
     <property type="nature" value="adjective"/>
@@ -7259,7 +7259,7 @@
     <link id="6754" relation="synonym"/>
     <link id="7029" relation="synonym"/>
     <link id="6474" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
     <link id="7035" relation="antonym"/>
   </word>
   <word id="6963">
@@ -7417,8 +7417,8 @@
     <declension form="superlative" text="steepest"/>
     <link id="32" relation="synonym"/>
     <link id="6893" relation="synonym"/>
-    <link id="23503" relation="synonym"/>
-    <link id="14493" relation="synonym"/>
+    <link id="23503" relation="related"/>
+    <link id="14493" relation="related"/>
   </word>
   <word id="6998">
     <property type="nature" value="adjective"/>
@@ -7466,7 +7466,7 @@
     <declension form="comparative" text="stingier"/>
     <declension form="superlative" text="stingiest"/>
     <link id="50" relation="synonym"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="7063" relation="synonym"/>
   </word>
   <word id="7004">
@@ -7994,7 +7994,7 @@
     <declension form="adjective" text="weary"/>
     <declension form="comparative" text="wearier"/>
     <declension form="superlative" text="weariest"/>
-    <link id="30748" relation="synonym"/>
+    <link id="30748" relation="related"/>
     <link id="26" relation="synonym"/>
   </word>
   <word id="7094">
@@ -8105,7 +8105,7 @@
     <declension form="adjective" text="young"/>
     <declension form="comparative" text="younger"/>
     <declension form="superlative" text="youngest"/>
-    <link id="21616" relation="synonym"/>
+    <link id="21616" relation="related"/>
     <link id="16041" relation="related"/>
   </word>
   <word id="7129">
@@ -8131,7 +8131,7 @@
     <link id="17536" relation="synonym"/>
     <link id="12742" relation="synonym"/>
     <link id="12568" relation="synonym"/>
-    <link id="1599" relation="synonym"/>
+    <link id="1599" relation="related"/>
     <link id="13643" relation="synonym"/>
     <link id="20836" relation="synonym"/>
   </word>
@@ -8265,7 +8265,7 @@
     <link id="16734" relation="synonym"/>
     <link id="13836" relation="synonym"/>
     <link id="13548" relation="synonym"/>
-    <link id="82" relation="synonym"/>
+    <link id="82" relation="related"/>
     <link id="43" relation="synonym"/>
   </word>
   <word id="7175">
@@ -9205,7 +9205,7 @@
     <link id="13237" relation="antonym"/>
     <link id="24661" relation="antonym"/>
     <link id="18060" relation="antonym"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="24116" relation="synonym"/>
   </word>
   <word id="7694">
@@ -9446,7 +9446,7 @@
     <declension number="singular" text="animation"/>
     <declension number="plural" text="animations"/>
     <link id="7341" relation="synonym"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
     <link id="24175" relation="synonym"/>
   </word>
   <word id="7926">
@@ -9498,13 +9498,13 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="annulation"/>
     <declension number="plural" text="annulations"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
   </word>
   <word id="7936">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="annulet"/>
     <declension number="plural" text="annulets"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
   </word>
   <word id="7937">
     <property type="nature" value="common noun"/>
@@ -9791,7 +9791,7 @@
     <link id="14536" relation="synonym"/>
     <link id="14531" relation="synonym"/>
     <link id="12909" relation="antonym"/>
-    <link id="30856" relation="synonym"/>
+    <link id="30856" relation="related"/>
   </word>
   <word id="8111">
     <property type="nature" value="common noun"/>
@@ -9803,7 +9803,7 @@
     <link id="21394" relation="synonym"/>
     <link id="29512" relation="synonym"/>
     <link id="26791" relation="synonym"/>
-    <link id="30766" relation="synonym"/>
+    <link id="30766" relation="related"/>
     <link id="11482" relation="synonym"/>
   </word>
   <word id="8112">
@@ -9933,7 +9933,7 @@
     <declension number="singular" text="area"/>
     <declension number="plural" text="areas"/>
     <link id="8825" relation="related"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
     <link id="12034" relation="synonym"/>
     <link id="20108" relation="synonym"/>
   </word>
@@ -9943,7 +9943,7 @@
     <declension number="plural" text="arenas"/>
     <link id="7797" relation="synonym"/>
     <link id="16459" relation="synonym"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
     <link id="28529" relation="synonym"/>
   </word>
   <word id="8209">
@@ -10015,7 +10015,7 @@
     <link id="24693" relation="synonym"/>
     <link id="13245" relation="antonym"/>
     <link id="11592" relation="antonym"/>
-    <link id="30807" relation="synonym"/>
+    <link id="30807" relation="related"/>
   </word>
   <word id="8261">
     <property type="nature" value="common noun"/>
@@ -10080,7 +10080,7 @@
     <link id="8305" relation="synonym"/>
     <link id="14032" relation="synonym"/>
     <link id="17888" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
+    <link id="30856" relation="related"/>
   </word>
   <word id="8311">
     <property type="nature" value="common noun"/>
@@ -10226,7 +10226,7 @@
     <link id="24747" relation="synonym"/>
     <link id="24710" relation="synonym"/>
     <link id="8598" relation="synonym"/>
-    <link id="75" relation="synonym"/>
+    <link id="75" relation="related"/>
   </word>
   <word id="8362">
     <property type="nature" value="common noun"/>
@@ -10287,7 +10287,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="asylum"/>
     <declension number="plural" text="asylums"/>
-    <link id="82" relation="synonym"/>
+    <link id="82" relation="related"/>
     <link id="19708" relation="synonym"/>
   </word>
   <word id="8395">
@@ -10461,8 +10461,8 @@
     <link id="7354" relation="synonym"/>
     <link id="14274" relation="synonym"/>
     <link id="16593" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
-    <link id="30903" relation="synonym"/>
+    <link id="30856" relation="related"/>
+    <link id="30903" relation="related"/>
   </word>
   <word id="8475">
     <property type="nature" value="common noun"/>
@@ -10513,7 +10513,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="autumn"/>
     <declension number="plural" text="autumns"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
   </word>
   <word id="8525">
     <property type="nature" value="common noun"/>
@@ -10602,7 +10602,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="azure"/>
     <declension number="plural" text="azures"/>
-    <link id="6377" relation="synonym"/>
+    <link id="6377" relation="related"/>
   </word>
   <word id="8569">
     <property type="nature" value="common noun"/>
@@ -10643,7 +10643,7 @@
     <declension number="singular" text="backing"/>
     <declension number="plural" text="backings"/>
     <link id="8361" relation="synonym"/>
-    <link id="75" relation="synonym"/>
+    <link id="75" relation="related"/>
   </word>
   <word id="8606">
     <property type="nature" value="common noun"/>
@@ -10865,7 +10865,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="bazaar"/>
     <declension number="plural" text="bazaars"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
   </word>
   <word id="8901">
     <property type="nature" value="common noun"/>
@@ -10998,7 +10998,7 @@
     <link id="28620" relation="synonym"/>
     <link id="21413" relation="synonym"/>
     <link id="26885" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
+    <link id="30856" relation="related"/>
   </word>
   <word id="8977">
     <property type="nature" value="common noun"/>
@@ -11091,10 +11091,10 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="benefit"/>
     <declension number="plural" text="benefits"/>
-    <link id="75" relation="synonym"/>
-    <link id="18" relation="synonym"/>
-    <link id="70" relation="synonym"/>
-    <link id="6605" relation="synonym"/>
+    <link id="75" relation="related"/>
+    <link id="18" relation="related"/>
+    <link id="70" relation="related"/>
+    <link id="6605" relation="related"/>
   </word>
   <word id="9028">
     <property type="nature" value="common noun"/>
@@ -11180,7 +11180,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="beverage"/>
     <declension number="plural" text="beverages"/>
-    <link id="30781" relation="synonym"/>
+    <link id="30781" relation="related"/>
   </word>
   <word id="9072">
     <property type="nature" value="common noun"/>
@@ -11235,7 +11235,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="bight"/>
     <declension number="plural" text="bights"/>
-    <link id="30751" relation="synonym"/>
+    <link id="30751" relation="related"/>
     <link id="11878" relation="synonym"/>
     <link id="12130" relation="synonym"/>
     <link id="18072" relation="synonym"/>
@@ -11327,7 +11327,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="blain"/>
     <declension number="plural" text="blains"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
     <link id="27979" relation="synonym"/>
   </word>
   <word id="9244">
@@ -11392,13 +11392,13 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="blinder"/>
     <declension number="plural" text="blinders"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
   </word>
   <word id="9283">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="blinker"/>
     <declension number="plural" text="blinkers"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
   </word>
   <word id="9286">
     <property type="nature" value="common noun"/>
@@ -11729,7 +11729,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="breve"/>
     <declension number="plural" text="breves"/>
-    <link id="6395" relation="synonym"/>
+    <link id="6395" relation="related"/>
     <link id="23785" relation="related"/>
   </word>
   <word id="9659">
@@ -11887,7 +11887,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="bulge"/>
     <declension number="plural" text="bulges"/>
-    <link id="30903" relation="synonym"/>
+    <link id="30903" relation="related"/>
   </word>
   <word id="9826">
     <property type="nature" value="common noun"/>
@@ -12037,7 +12037,7 @@
     <link id="9720" relation="synonym"/>
     <link id="11292" relation="synonym"/>
     <link id="9608" relation="related"/>
-    <link id="30895" relation="synonym"/>
+    <link id="30895" relation="related"/>
   </word>
   <word id="9958">
     <property type="nature" value="common noun"/>
@@ -12073,7 +12073,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="cadence"/>
     <declension number="plural" text="cadences"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
   </word>
   <word id="9986">
     <property type="nature" value="common noun"/>
@@ -12296,7 +12296,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="capriole"/>
     <declension number="plural" text="caprioles"/>
-    <link id="30820" relation="synonym"/>
+    <link id="30820" relation="related"/>
   </word>
   <word id="10189">
     <property type="nature" value="common noun"/>
@@ -12724,7 +12724,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="champaign"/>
     <declension number="plural" text="champaigns"/>
-    <link id="6555" relation="synonym"/>
+    <link id="6555" relation="related"/>
   </word>
   <word id="10637">
     <property type="nature" value="common noun"/>
@@ -12740,13 +12740,13 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="chancre"/>
     <declension number="plural" text="chancres"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="10642">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="chancroid"/>
     <declension number="plural" text="chancroids"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="10646">
     <property type="nature" value="common noun"/>
@@ -13026,7 +13026,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="circumstance"/>
     <declension number="plural" text="circumstances"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
     <link id="26471" relation="synonym"/>
   </word>
   <word id="10967">
@@ -13195,8 +13195,8 @@
     <declension number="plural" text="cliques"/>
     <link id="11960" relation="synonym"/>
     <link id="18618" relation="synonym"/>
-    <link id="30855" relation="synonym"/>
-    <link id="30863" relation="synonym"/>
+    <link id="30855" relation="related"/>
+    <link id="30863" relation="related"/>
   </word>
   <word id="11106">
     <property type="nature" value="common noun"/>
@@ -13385,7 +13385,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="coil"/>
     <declension number="plural" text="coils"/>
-    <link id="30751" relation="synonym"/>
+    <link id="30751" relation="related"/>
     <link id="11784" relation="synonym"/>
     <link id="14305" relation="synonym"/>
   </word>
@@ -13429,7 +13429,7 @@
     <declension number="plural" text="collapses"/>
     <link id="9629" relation="synonym"/>
     <link id="14706" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
   </word>
   <word id="11292">
     <property type="nature" value="common noun"/>
@@ -13654,7 +13654,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="commoner"/>
     <declension number="plural" text="commoners"/>
-    <link id="6770" relation="antonym"/>
+    <link id="6770" relation="opposition"/>
   </word>
   <word id="11424">
     <property type="nature" value="common noun"/>
@@ -13741,7 +13741,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="compensation"/>
     <declension number="plural" text="compensations"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="22416" relation="synonym"/>
     <link id="24951" relation="synonym"/>
   </word>
@@ -13934,7 +13934,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="conclusion"/>
     <declension number="plural" text="conclusions"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
     <link id="12629" relation="synonym"/>
     <link id="13003" relation="synonym"/>
     <link id="17989" relation="synonym"/>
@@ -14110,7 +14110,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="conformation"/>
     <declension number="plural" text="conformations"/>
-    <link id="69" relation="synonym"/>
+    <link id="69" relation="related"/>
   </word>
   <word id="11592">
     <property type="nature" value="common noun"/>
@@ -14866,8 +14866,8 @@
     <declension number="singular" text="coterie"/>
     <declension number="plural" text="coteries"/>
     <link id="11100" relation="synonym"/>
-    <link id="30855" relation="synonym"/>
-    <link id="30863" relation="synonym"/>
+    <link id="30855" relation="related"/>
+    <link id="30863" relation="related"/>
   </word>
   <word id="11967">
     <property type="nature" value="common noun"/>
@@ -15404,7 +15404,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="curvature"/>
     <declension number="plural" text="curvatures"/>
-    <link id="30751" relation="synonym"/>
+    <link id="30751" relation="related"/>
     <link id="15323" relation="synonym"/>
   </word>
   <word id="12384">
@@ -15676,7 +15676,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="decay"/>
     <declension number="plural" text="decays"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
   </word>
   <word id="12604">
     <property type="nature" value="common noun"/>
@@ -15700,7 +15700,7 @@
     <link id="13324" relation="antonym"/>
     <link id="12561" relation="antonym"/>
     <link id="12787" relation="synonym"/>
-    <link id="30861" relation="synonym"/>
+    <link id="30861" relation="related"/>
     <link id="30390" relation="synonym"/>
   </word>
   <word id="12623">
@@ -15801,7 +15801,7 @@
     <link id="13184" relation="synonym"/>
     <link id="12909" relation="synonym"/>
     <link id="27686" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
     <link id="16593" relation="antonym"/>
     <link id="26440" relation="synonym"/>
   </word>
@@ -15973,7 +15973,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="defiance"/>
     <declension number="plural" text="defiances"/>
-    <link id="30774" relation="synonym"/>
+    <link id="30774" relation="related"/>
     <link id="23874" relation="synonym"/>
     <link id="21729" relation="synonym"/>
     <link id="24482" relation="synonym"/>
@@ -16003,7 +16003,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="deflection"/>
     <declension number="plural" text="deflections"/>
-    <link id="30751" relation="synonym"/>
+    <link id="30751" relation="related"/>
     <link id="24650" relation="synonym"/>
     <link id="29331" relation="synonym"/>
   </word>
@@ -16038,7 +16038,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="degree"/>
     <declension number="plural" text="degrees"/>
-    <link id="6834" relation="synonym"/>
+    <link id="6834" relation="related"/>
   </word>
   <word id="12748">
     <property type="nature" value="common noun"/>
@@ -16353,7 +16353,7 @@
     <link id="8109" relation="antonym"/>
     <link id="9361" relation="antonym"/>
     <link id="12665" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
     <link id="26306" relation="synonym"/>
     <link id="26631" relation="synonym"/>
   </word>
@@ -16382,7 +16382,7 @@
     <link id="17924" relation="synonym"/>
     <link id="12760" relation="synonym"/>
     <link id="13285" relation="synonym"/>
-    <link id="1599" relation="synonym"/>
+    <link id="1599" relation="related"/>
     <link id="27082" relation="synonym"/>
   </word>
   <word id="12918">
@@ -16490,7 +16490,7 @@
     <link id="14493" relation="synonym"/>
     <link id="13643" relation="synonym"/>
     <link id="13645" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
     <link id="17888" relation="synonym"/>
     <link id="22460" relation="synonym"/>
   </word>
@@ -16503,7 +16503,7 @@
     <link id="12774" relation="synonym"/>
     <link id="23369" relation="synonym"/>
     <link id="26962" relation="synonym"/>
-    <link id="6683" relation="synonym"/>
+    <link id="6683" relation="related"/>
   </word>
   <word id="12949">
     <property type="nature" value="common noun"/>
@@ -16684,7 +16684,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="detriment"/>
     <declension number="plural" text="detriments"/>
-    <link id="30813" relation="synonym"/>
+    <link id="30813" relation="related"/>
     <link id="23554" relation="synonym"/>
   </word>
   <word id="13035">
@@ -16694,7 +16694,7 @@
     <link id="12974" relation="synonym"/>
     <link id="25413" relation="synonym"/>
     <link id="16994" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
     <link id="27547" relation="synonym"/>
   </word>
   <word id="13038">
@@ -17198,7 +17198,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="disemboguement"/>
     <declension number="plural" text="disemboguements"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
   </word>
   <word id="13300">
     <property type="nature" value="common noun"/>
@@ -17462,7 +17462,7 @@
     <link id="13307" relation="synonym"/>
     <link id="21968" relation="synonym"/>
     <link id="21391" relation="antonym"/>
-    <link id="6918" relation="synonym"/>
+    <link id="6918" relation="related"/>
   </word>
   <word id="13385">
     <property type="nature" value="common noun"/>
@@ -17594,7 +17594,7 @@
     <link id="19112" relation="related"/>
     <link id="21583" relation="related"/>
     <link id="22576" relation="related"/>
-    <link id="30843" relation="synonym"/>
+    <link id="30843" relation="related"/>
     <link id="17069" relation="synonym"/>
     <link id="8" relation="synonym"/>
   </word>
@@ -17630,7 +17630,7 @@
     <link id="14934" relation="synonym"/>
     <link id="24889" relation="synonym"/>
     <link id="23768" relation="synonym"/>
-    <link id="6834" relation="synonym"/>
+    <link id="6834" relation="related"/>
   </word>
   <word id="13432">
     <property type="nature" value="common noun"/>
@@ -17842,7 +17842,7 @@
     <declension number="plural" text="domiciles"/>
     <link id="7169" relation="synonym"/>
     <link id="13836" relation="synonym"/>
-    <link id="82" relation="synonym"/>
+    <link id="82" relation="related"/>
     <link id="43" relation="synonym"/>
     <link id="24919" relation="synonym"/>
   </word>
@@ -17957,7 +17957,7 @@
     <link id="12945" relation="synonym"/>
     <link id="7130" relation="synonym"/>
     <link id="17536" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
   </word>
   <word id="13645">
     <property type="nature" value="common noun"/>
@@ -18093,7 +18093,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="drowse"/>
     <declension number="plural" text="drowses"/>
-    <link id="38" relation="synonym"/>
+    <link id="38" relation="related"/>
   </word>
   <word id="13736">
     <property type="nature" value="common noun"/>
@@ -18222,7 +18222,7 @@
     <link id="24919" relation="synonym"/>
     <link id="13548" relation="synonym"/>
     <link id="43" relation="synonym"/>
-    <link id="82" relation="synonym"/>
+    <link id="82" relation="related"/>
   </word>
   <word id="13838">
     <property type="nature" value="common noun"/>
@@ -18404,7 +18404,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="ejection"/>
     <declension number="plural" text="ejections"/>
-    <link id="30765" relation="synonym"/>
+    <link id="30765" relation="related"/>
     <link id="13372" relation="synonym"/>
     <link id="30005" relation="synonym"/>
     <link id="14799" relation="synonym"/>
@@ -18438,8 +18438,8 @@
     <link id="14637" relation="synonym"/>
     <link id="7418" relation="synonym"/>
     <link id="14124" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
-    <link id="30903" relation="synonym"/>
+    <link id="30856" relation="related"/>
+    <link id="30903" relation="related"/>
   </word>
   <word id="14041">
     <property type="nature" value="common noun"/>
@@ -18595,7 +18595,7 @@
     <link id="14032" relation="synonym"/>
     <link id="14649" relation="synonym"/>
     <link id="14934" relation="synonym"/>
-    <link id="6834" relation="synonym"/>
+    <link id="6834" relation="related"/>
     <link id="27083" relation="synonym"/>
   </word>
   <word id="14126">
@@ -18608,7 +18608,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="emolument"/>
     <declension number="plural" text="emoluments"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
   </word>
   <word id="14135">
     <property type="nature" value="common noun"/>
@@ -18683,7 +18683,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="enclosure"/>
     <declension number="plural" text="enclosures"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
   </word>
   <word id="14188">
     <property type="nature" value="common noun"/>
@@ -18822,7 +18822,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="engraving"/>
     <declension number="plural" text="engravings"/>
-    <link id="30773" relation="synonym"/>
+    <link id="30773" relation="related"/>
     <link id="10340" relation="synonym"/>
   </word>
   <word id="14261">
@@ -18891,9 +18891,9 @@
     <declension number="singular" text="enough"/>
     <declension number="plural" text="enoughs"/>
     <link id="7218" relation="synonym"/>
-    <link id="5268" relation="synonym"/>
-    <link id="191" relation="synonym"/>
-    <link id="2193" relation="synonym"/>
+    <link id="5268" relation="related"/>
+    <link id="191" relation="related"/>
+    <link id="2193" relation="related"/>
   </word>
   <word id="14288">
     <property type="nature" value="common noun"/>
@@ -19062,7 +19062,7 @@
     <declension number="singular" text="epitome"/>
     <declension number="plural" text="epitomes"/>
     <link id="7191" relation="synonym"/>
-    <link id="6395" relation="synonym"/>
+    <link id="6395" relation="related"/>
     <link id="11450" relation="synonym"/>
   </word>
   <word id="14434">
@@ -19165,7 +19165,7 @@
     <declension number="singular" text="escarpment"/>
     <declension number="plural" text="escarpments"/>
     <link id="12945" relation="synonym"/>
-    <link id="6997" relation="synonym"/>
+    <link id="6997" relation="related"/>
   </word>
   <word id="14501">
     <property type="nature" value="common noun"/>
@@ -19464,7 +19464,7 @@
     <link id="28956" relation="synonym"/>
     <link id="14124" relation="synonym"/>
     <link id="29948" relation="synonym"/>
-    <link id="6605" relation="synonym"/>
+    <link id="6605" relation="related"/>
   </word>
   <word id="14651">
     <property type="nature" value="common noun"/>
@@ -19761,7 +19761,7 @@
     <declension number="plural" text="expositions"/>
     <link id="14772" relation="synonym"/>
     <link id="14792" relation="synonym"/>
-    <link id="6535" relation="synonym"/>
+    <link id="6535" relation="related"/>
     <link id="24393" relation="synonym"/>
     <link id="26290" relation="synonym"/>
   </word>
@@ -19819,7 +19819,7 @@
     <link id="19112" relation="synonym"/>
     <link id="20108" relation="synonym"/>
     <link id="25755" relation="synonym"/>
-    <link id="30892" relation="synonym"/>
+    <link id="30892" relation="related"/>
   </word>
   <word id="14813">
     <property type="nature" value="common noun"/>
@@ -19862,7 +19862,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="extraction"/>
     <declension number="plural" text="extractions"/>
-    <link id="30758" relation="synonym"/>
+    <link id="30758" relation="related"/>
     <link id="12945" relation="synonym"/>
     <link id="22242" relation="synonym"/>
     <link id="22460" relation="synonym"/>
@@ -20176,7 +20176,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="feint"/>
     <declension number="plural" text="feints"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="23624" relation="synonym"/>
     <link id="27510" relation="synonym"/>
     <link id="25374" relation="synonym"/>
@@ -20372,11 +20372,11 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="fissure"/>
     <declension number="plural" text="fissures"/>
-    <link id="73" relation="synonym"/>
+    <link id="73" relation="related"/>
     <link id="12153" relation="synonym"/>
     <link id="17337" relation="synonym"/>
     <link id="25125" relation="synonym"/>
-    <link id="30890" relation="synonym"/>
+    <link id="30890" relation="related"/>
   </word>
   <word id="15245">
     <property type="nature" value="common noun"/>
@@ -20453,7 +20453,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="flexure"/>
     <declension number="plural" text="flexures"/>
-    <link id="30751" relation="synonym"/>
+    <link id="30751" relation="related"/>
     <link id="12377" relation="synonym"/>
     <link id="29331" relation="synonym"/>
   </word>
@@ -20510,7 +20510,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="fodder"/>
     <declension number="plural" text="fodders"/>
-    <link id="81" relation="synonym"/>
+    <link id="81" relation="related"/>
     <link id="23866" relation="synonym"/>
     <link id="14296" relation="synonym"/>
     <link id="26397" relation="related"/>
@@ -20866,7 +20866,7 @@
     <declension number="singular" text="fountain"/>
     <declension number="plural" text="fountains"/>
     <link id="26885" relation="synonym"/>
-    <link id="30893" relation="synonym"/>
+    <link id="30893" relation="related"/>
   </word>
   <word id="15608">
     <property type="nature" value="common noun"/>
@@ -20884,7 +20884,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="fracture"/>
     <declension number="plural" text="fractures"/>
-    <link id="73" relation="synonym"/>
+    <link id="73" relation="related"/>
     <link id="9632" relation="synonym"/>
     <link id="25371" relation="synonym"/>
   </word>
@@ -20909,7 +20909,7 @@
     <link id="30390" relation="synonym"/>
     <link id="10967" relation="synonym"/>
     <link id="11325" relation="related"/>
-    <link id="30861" relation="synonym"/>
+    <link id="30861" relation="related"/>
     <link id="26130" relation="synonym"/>
   </word>
   <word id="15655">
@@ -21299,7 +21299,7 @@
     <link id="20072" relation="synonym"/>
     <link id="24040" relation="synonym"/>
     <link id="20147" relation="synonym"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="16023">
     <property type="nature" value="common noun"/>
@@ -21333,7 +21333,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="genre"/>
     <declension number="plural" text="genres"/>
-    <link id="6683" relation="synonym"/>
+    <link id="6683" relation="related"/>
   </word>
   <word id="16077">
     <property type="nature" value="common noun"/>
@@ -21399,7 +21399,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="gimmal"/>
     <declension number="plural" text="gimmals"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
   </word>
   <word id="16156">
     <property type="nature" value="common noun"/>
@@ -21709,7 +21709,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="grandee"/>
     <declension number="plural" text="grandees"/>
-    <link id="6770" relation="synonym"/>
+    <link id="6770" relation="related"/>
   </word>
   <word id="16413">
     <property type="nature" value="common noun"/>
@@ -21733,7 +21733,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="grapple"/>
     <declension number="plural" text="grapples"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
   </word>
   <word id="16454">
     <property type="nature" value="common noun"/>
@@ -21860,7 +21860,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="grinding"/>
     <declension number="plural" text="grindings"/>
-    <link id="30805" relation="synonym"/>
+    <link id="30805" relation="related"/>
     <link id="23975" relation="synonym"/>
     <link id="29165" relation="synonym"/>
     <link id="7184" relation="synonym"/>
@@ -21887,7 +21887,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="grommet"/>
     <declension number="plural" text="grommets"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
   </word>
   <word id="16579">
     <property type="nature" value="common noun"/>
@@ -22181,7 +22181,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="happening"/>
     <declension number="plural" text="happenings"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
   </word>
   <word id="16909">
     <property type="nature" value="common noun"/>
@@ -22226,7 +22226,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="hasp"/>
     <declension number="plural" text="hasps"/>
-    <link id="30766" relation="synonym"/>
+    <link id="30766" relation="related"/>
     <link id="22047" relation="related"/>
   </word>
   <word id="16962">
@@ -22503,7 +22503,7 @@
     <link id="24955" relation="synonym"/>
     <link id="15738" relation="synonym"/>
     <link id="17334" relation="synonym"/>
-    <link id="30824" relation="synonym"/>
+    <link id="30824" relation="related"/>
     <link id="23638" relation="synonym"/>
   </word>
   <word id="17311">
@@ -22645,7 +22645,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="honorarium"/>
     <declension number="plural" text="honorariums"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="25059" relation="synonym"/>
   </word>
   <word id="17431">
@@ -23013,7 +23013,7 @@
     <link id="12609" relation="synonym"/>
     <link id="15654" relation="synonym"/>
     <link id="17826" relation="synonym"/>
-    <link id="30861" relation="synonym"/>
+    <link id="30861" relation="related"/>
   </word>
   <word id="17824">
     <property type="nature" value="common noun"/>
@@ -23155,7 +23155,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="incision"/>
     <declension number="plural" text="incisions"/>
-    <link id="30773" relation="synonym"/>
+    <link id="30773" relation="related"/>
   </word>
   <word id="17884">
     <property type="nature" value="common noun"/>
@@ -23204,14 +23204,14 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="inclosure"/>
     <declension number="plural" text="inclosures"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
     <link id="14347" relation="synonym"/>
     <link id="27909" relation="synonym"/>
     <link id="11122" relation="synonym"/>
     <link id="8806" relation="synonym"/>
     <link id="11904" relation="synonym"/>
     <link id="27436" relation="synonym"/>
-    <link id="6781" relation="synonym"/>
+    <link id="6781" relation="related"/>
   </word>
   <word id="17893">
     <property type="nature" value="common noun"/>
@@ -23270,7 +23270,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="incurvation"/>
     <declension number="plural" text="incurvations"/>
-    <link id="30751" relation="synonym"/>
+    <link id="30751" relation="related"/>
     <link id="29331" relation="synonym"/>
   </word>
   <word id="17924">
@@ -23945,7 +23945,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="interstice"/>
     <declension number="plural" text="interstices"/>
-    <link id="73" relation="synonym"/>
+    <link id="73" relation="related"/>
     <link id="17337" relation="synonym"/>
   </word>
   <word id="18266">
@@ -24469,7 +24469,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="kerf"/>
     <declension number="plural" text="kerfs"/>
-    <link id="30773" relation="synonym"/>
+    <link id="30773" relation="related"/>
   </word>
   <word id="18724">
     <property type="nature" value="common noun"/>
@@ -24522,7 +24522,7 @@
     <declension number="plural" text="kidneys"/>
     <link id="19522" relation="related"/>
     <link id="13371" relation="synonym"/>
-    <link id="6683" relation="synonym"/>
+    <link id="6683" relation="related"/>
   </word>
   <word id="18775">
     <property type="nature" value="common noun"/>
@@ -24552,7 +24552,7 @@
     <link id="12623" relation="synonym"/>
     <link id="9252" relation="synonym"/>
     <link id="11992" relation="synonym"/>
-    <link id="6494" relation="synonym"/>
+    <link id="6494" relation="related"/>
   </word>
   <word id="18791">
     <property type="nature" value="common noun"/>
@@ -24610,7 +24610,7 @@
     <declension number="singular" text="knoll"/>
     <declension number="plural" text="knolls"/>
     <link id="17259" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
+    <link id="30856" relation="related"/>
   </word>
   <word id="18944">
     <property type="nature" value="common noun"/>
@@ -24849,7 +24849,7 @@
     <declension number="plural" text="lean-tos"/>
     <link id="22553" relation="synonym"/>
     <link id="7354" relation="synonym"/>
-    <link id="30868" relation="synonym"/>
+    <link id="30868" relation="related"/>
   </word>
   <word id="19164">
     <property type="nature" value="common noun"/>
@@ -25007,7 +25007,7 @@
     <link id="8530" relation="antonym"/>
     <link id="16977" relation="antonym"/>
     <link id="13243" relation="antonym"/>
-    <link id="30869" relation="synonym"/>
+    <link id="30869" relation="related"/>
   </word>
   <word id="19355">
     <property type="nature" value="common noun"/>
@@ -25030,7 +25030,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="lineage"/>
     <declension number="plural" text="lineages"/>
-    <link id="30758" relation="synonym"/>
+    <link id="30758" relation="related"/>
     <link id="12945" relation="synonym"/>
     <link id="15496" relation="synonym"/>
     <link id="22242" relation="synonym"/>
@@ -25140,7 +25140,7 @@
     <link id="26471" relation="synonym"/>
     <link id="42" relation="synonym"/>
     <link id="26467" relation="synonym"/>
-    <link id="30894" relation="synonym"/>
+    <link id="30894" relation="related"/>
   </word>
   <word id="19488">
     <property type="nature" value="common noun"/>
@@ -25308,7 +25308,7 @@
     <declension number="plural" text="lusters"/>
     <link id="16222" relation="synonym"/>
     <link id="26158" relation="synonym"/>
-    <link id="30869" relation="synonym"/>
+    <link id="30869" relation="related"/>
   </word>
   <word id="19639">
     <property type="nature" value="common noun"/>
@@ -25588,7 +25588,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="manilla"/>
     <declension number="plural" text="manillas"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
   </word>
   <word id="19890">
     <property type="nature" value="common noun"/>
@@ -25752,7 +25752,7 @@
     <link id="11644" relation="synonym"/>
     <link id="19925" relation="synonym"/>
     <link id="20680" relation="related"/>
-    <link id="18" relation="synonym"/>
+    <link id="18" relation="related"/>
   </word>
   <word id="20072">
     <property type="nature" value="common noun"/>
@@ -25832,7 +25832,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="medium"/>
     <declension number="plural" text="mediums"/>
-    <link id="30829" relation="synonym"/>
+    <link id="30829" relation="related"/>
     <link id="29752" relation="synonym"/>
   </word>
   <word id="20141">
@@ -25902,7 +25902,7 @@
     <declension number="singular" text="memorandum"/>
     <declension number="plural" text="memorandums"/>
     <link id="18566" relation="synonym"/>
-    <link id="6739" relation="synonym"/>
+    <link id="6739" relation="related"/>
   </word>
   <word id="20203">
     <property type="nature" value="common noun"/>
@@ -26033,7 +26033,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="mettle"/>
     <declension number="plural" text="mettles"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
     <link id="13371" relation="synonym"/>
   </word>
   <word id="20333">
@@ -26123,7 +26123,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="miniature"/>
     <declension number="plural" text="miniatures"/>
-    <link id="6706" relation="synonym"/>
+    <link id="6706" relation="related"/>
   </word>
   <word id="20494">
     <property type="nature" value="common noun"/>
@@ -26359,7 +26359,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="modicum"/>
     <declension number="plural" text="modicums"/>
-    <link id="6706" relation="synonym"/>
+    <link id="6706" relation="related"/>
   </word>
   <word id="20656">
     <property type="nature" value="common noun"/>
@@ -26555,7 +26555,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="mouthful"/>
     <declension number="plural" text="mouthfuls"/>
-    <link id="79" relation="synonym"/>
+    <link id="79" relation="related"/>
     <link id="20830" relation="synonym"/>
   </word>
   <word id="20891">
@@ -26727,7 +26727,7 @@
     <declension number="singular" text="nature"/>
     <declension number="plural" text="natures"/>
     <link id="13371" relation="synonym"/>
-    <link id="6683" relation="synonym"/>
+    <link id="6683" relation="related"/>
     <link id="29553" relation="synonym"/>
     <link id="26962" relation="synonym"/>
     <link id="14523" relation="synonym"/>
@@ -26977,8 +26977,8 @@
     <link id="24531" relation="synonym"/>
     <link id="13383" relation="antonym"/>
     <link id="21968" relation="antonym"/>
-    <link id="30906" relation="synonym"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30906" relation="related"/>
+    <link id="30847" relation="related"/>
   </word>
   <word id="21392">
     <property type="nature" value="common noun"/>
@@ -27258,7 +27258,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="occurrence"/>
     <declension number="plural" text="occurrences"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
   </word>
   <word id="21577">
     <property type="nature" value="common noun"/>
@@ -27354,7 +27354,7 @@
     <declension number="singular" text="offspring"/>
     <declension number="plural" text="offsprings"/>
     <link id="12942" relation="synonym"/>
-    <link id="7121" relation="synonym"/>
+    <link id="7121" relation="related"/>
   </word>
   <word id="21624">
     <property type="nature" value="common noun"/>
@@ -27495,7 +27495,7 @@
     <link id="7315" relation="antonym"/>
     <link id="11532" relation="antonym"/>
     <link id="24838" relation="synonym"/>
-    <link id="30894" relation="synonym"/>
+    <link id="30894" relation="related"/>
   </word>
   <word id="21730">
     <property type="nature" value="common noun"/>
@@ -27674,7 +27674,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="outhouse"/>
     <declension number="plural" text="outhouses"/>
-    <link id="30868" relation="synonym"/>
+    <link id="30868" relation="related"/>
   </word>
   <word id="21888">
     <property type="nature" value="common noun"/>
@@ -28118,7 +28118,7 @@
     <declension number="singular" text="passage"/>
     <declension number="plural" text="passages"/>
     <link id="7671" relation="synonym"/>
-    <link id="30773" relation="synonym"/>
+    <link id="30773" relation="related"/>
     <link id="11040" relation="synonym"/>
     <link id="14157" relation="synonym"/>
     <link id="11916" relation="synonym"/>
@@ -28331,7 +28331,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="pedigree"/>
     <declension number="plural" text="pedigrees"/>
-    <link id="30758" relation="synonym"/>
+    <link id="30758" relation="related"/>
     <link id="22242" relation="synonym"/>
     <link id="19379" relation="synonym"/>
     <link id="12945" relation="synonym"/>
@@ -28506,7 +28506,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="peroration"/>
     <declension number="plural" text="perorations"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
     <link id="11521" relation="synonym"/>
   </word>
   <word id="22668">
@@ -28525,7 +28525,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="perquisite"/>
     <declension number="plural" text="perquisites"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
   </word>
   <word id="22676">
     <property type="nature" value="common noun"/>
@@ -28546,7 +28546,7 @@
     <declension number="singular" text="perseverance"/>
     <declension number="plural" text="perseverances"/>
     <link id="13177" relation="synonym"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
     <link id="22362" relation="synonym"/>
     <link id="22682" relation="synonym"/>
   </word>
@@ -29307,13 +29307,13 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="potable"/>
     <declension number="plural" text="potables"/>
-    <link id="30781" relation="synonym"/>
+    <link id="30781" relation="related"/>
   </word>
   <word id="23412">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="potation"/>
     <declension number="plural" text="potations"/>
-    <link id="30781" relation="synonym"/>
+    <link id="30781" relation="related"/>
     <link id="13712" relation="synonym"/>
   </word>
   <word id="23413">
@@ -29381,7 +29381,7 @@
     <link id="19821" relation="synonym"/>
     <link id="29630" relation="synonym"/>
     <link id="24698" relation="synonym"/>
-    <link id="70" relation="synonym"/>
+    <link id="70" relation="related"/>
     <link id="8" relation="synonym"/>
   </word>
   <word id="23472">
@@ -29467,7 +29467,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="precipice"/>
     <declension number="plural" text="precipices"/>
-    <link id="6997" relation="synonym"/>
+    <link id="6997" relation="related"/>
   </word>
   <word id="23506">
     <property type="nature" value="common noun"/>
@@ -29667,7 +29667,7 @@
     <declension number="singular" text="pressure"/>
     <declension number="plural" text="pressures"/>
     <link id="11675" relation="synonym"/>
-    <link id="30857" relation="synonym"/>
+    <link id="30857" relation="related"/>
   </word>
   <word id="23615">
     <property type="nature" value="common noun"/>
@@ -29699,7 +29699,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="pretense"/>
     <declension number="plural" text="pretenses"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="15027" relation="synonym"/>
     <link id="8371" relation="synonym"/>
     <link id="23625" relation="synonym"/>
@@ -29726,7 +29726,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="pretext"/>
     <declension number="plural" text="pretexts"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="19543" relation="synonym"/>
     <link id="23624" relation="synonym"/>
   </word>
@@ -29803,7 +29803,7 @@
     <link id="25059" relation="synonym"/>
     <link id="23567" relation="synonym"/>
     <link id="27969" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
   </word>
   <word id="23692">
     <property type="nature" value="common noun"/>
@@ -30072,7 +30072,7 @@
     <declension number="singular" text="prostration"/>
     <declension number="plural" text="prostrations"/>
     <link id="14706" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
   </word>
   <word id="23836">
     <property type="nature" value="common noun"/>
@@ -30121,14 +30121,14 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="protuberance"/>
     <declension number="plural" text="protuberances"/>
-    <link id="30903" relation="synonym"/>
+    <link id="30903" relation="related"/>
     <link id="27979" relation="synonym"/>
   </word>
   <word id="23866">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="provender"/>
     <declension number="plural" text="provenders"/>
-    <link id="81" relation="synonym"/>
+    <link id="81" relation="related"/>
     <link id="15413" relation="synonym"/>
   </word>
   <word id="23868">
@@ -30160,7 +30160,7 @@
     <declension number="singular" text="provocation"/>
     <declension number="plural" text="provocations"/>
     <link id="7523" relation="synonym"/>
-    <link id="30774" relation="synonym"/>
+    <link id="30774" relation="related"/>
     <link id="12707" relation="synonym"/>
     <link id="14646" relation="synonym"/>
     <link id="17870" relation="synonym"/>
@@ -30170,7 +30170,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="pubescence"/>
     <declension number="plural" text="pubescences"/>
-    <link id="1599" relation="synonym"/>
+    <link id="1599" relation="related"/>
   </word>
   <word id="23929">
     <property type="nature" value="common noun"/>
@@ -30213,14 +30213,14 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="pulsation"/>
     <declension number="plural" text="pulsations"/>
-    <link id="30748" relation="synonym"/>
+    <link id="30748" relation="related"/>
     <link id="8919" relation="synonym"/>
   </word>
   <word id="23975">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="pulverization"/>
     <declension number="plural" text="pulverizations"/>
-    <link id="30805" relation="synonym"/>
+    <link id="30805" relation="related"/>
     <link id="16538" relation="synonym"/>
   </word>
   <word id="23977">
@@ -30384,7 +30384,7 @@
     <link id="9286" relation="synonym"/>
     <link id="15984" relation="synonym"/>
     <link id="22938" relation="synonym"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="24046">
     <property type="nature" value="common noun"/>
@@ -30623,7 +30623,7 @@
     <declension number="plural" text="rapines"/>
     <link id="12911" relation="synonym"/>
     <link id="27098" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
     <link id="27301" relation="synonym"/>
     <link id="27547" relation="synonym"/>
   </word>
@@ -30911,7 +30911,7 @@
     <declension number="singular" text="recompense"/>
     <declension number="plural" text="recompenses"/>
     <link id="20144" relation="synonym"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="22416" relation="synonym"/>
     <link id="24833" relation="synonym"/>
     <link id="24895" relation="synonym"/>
@@ -31192,7 +31192,7 @@
     <link id="11489" relation="synonym"/>
     <link id="16522" relation="synonym"/>
     <link id="12907" relation="synonym"/>
-    <link id="18" relation="synonym"/>
+    <link id="18" relation="related"/>
   </word>
   <word id="24693">
     <property type="nature" value="common noun"/>
@@ -31346,7 +31346,7 @@
     <declension number="plural" text="reliefs"/>
     <link id="7669" relation="synonym"/>
     <link id="8361" relation="synonym"/>
-    <link id="75" relation="synonym"/>
+    <link id="75" relation="related"/>
     <link id="22123" relation="synonym"/>
     <link id="20614" relation="synonym"/>
     <link id="22103" relation="synonym"/>
@@ -31448,7 +31448,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="remuneration"/>
     <declension number="plural" text="remunerations"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="22416" relation="synonym"/>
     <link id="24895" relation="synonym"/>
     <link id="25059" relation="synonym"/>
@@ -31610,7 +31610,7 @@
     <link id="24582" relation="synonym"/>
     <link id="24496" relation="synonym"/>
     <link id="25028" relation="synonym"/>
-    <link id="30857" relation="synonym"/>
+    <link id="30857" relation="related"/>
   </word>
   <word id="24849">
     <property type="nature" value="common noun"/>
@@ -31775,7 +31775,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="requital"/>
     <declension number="plural" text="requitals"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="24833" relation="synonym"/>
     <link id="24545" relation="synonym"/>
     <link id="24792" relation="synonym"/>
@@ -31832,7 +31832,7 @@
     <declension number="plural" text="residences"/>
     <link id="7169" relation="synonym"/>
     <link id="13836" relation="synonym"/>
-    <link id="82" relation="synonym"/>
+    <link id="82" relation="related"/>
     <link id="43" relation="synonym"/>
     <link id="13549" relation="synonym"/>
     <link id="16734" relation="synonym"/>
@@ -31863,7 +31863,7 @@
     <link id="22362" relation="antonym"/>
     <link id="22661" relation="antonym"/>
     <link id="24488" relation="synonym"/>
-    <link id="30894" relation="synonym"/>
+    <link id="30894" relation="related"/>
   </word>
   <word id="24931">
     <property type="nature" value="common noun"/>
@@ -31903,7 +31903,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="restorative"/>
     <declension number="plural" text="restoratives"/>
-    <link id="75" relation="synonym"/>
+    <link id="75" relation="related"/>
     <link id="20132" relation="synonym"/>
   </word>
   <word id="24955">
@@ -32117,7 +32117,7 @@
     <declension number="singular" text="reward"/>
     <declension number="plural" text="rewards"/>
     <link id="20144" relation="synonym"/>
-    <link id="30847" relation="synonym"/>
+    <link id="30847" relation="related"/>
     <link id="23686" relation="synonym"/>
     <link id="24545" relation="synonym"/>
     <link id="24895" relation="synonym"/>
@@ -32182,11 +32182,11 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="rift"/>
     <declension number="plural" text="rifts"/>
-    <link id="73" relation="synonym"/>
+    <link id="73" relation="related"/>
     <link id="11069" relation="synonym"/>
     <link id="15242" relation="synonym"/>
     <link id="12153" relation="synonym"/>
-    <link id="30890" relation="synonym"/>
+    <link id="30890" relation="related"/>
   </word>
   <word id="25128">
     <property type="nature" value="common noun"/>
@@ -32267,7 +32267,7 @@
     <link id="27522" relation="synonym"/>
     <link id="25365" relation="synonym"/>
     <link id="25364" relation="synonym"/>
-    <link id="30857" relation="synonym"/>
+    <link id="30857" relation="related"/>
   </word>
   <word id="25187">
     <property type="nature" value="common noun"/>
@@ -32555,25 +32555,25 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="running"/>
     <declension number="plural" text="runnings"/>
-    <link id="30857" relation="synonym"/>
+    <link id="30857" relation="related"/>
   </word>
   <word id="25371">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="rupture"/>
     <declension number="plural" text="ruptures"/>
-    <link id="73" relation="synonym"/>
+    <link id="73" relation="related"/>
     <link id="9632" relation="synonym"/>
     <link id="15630" relation="synonym"/>
     <link id="13385" relation="synonym"/>
     <link id="17187" relation="synonym"/>
     <link id="25985" relation="synonym"/>
-    <link id="30890" relation="synonym"/>
+    <link id="30890" relation="related"/>
   </word>
   <word id="25374">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="ruse"/>
     <declension number="plural" text="ruses"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="12609" relation="synonym"/>
     <link id="12787" relation="synonym"/>
     <link id="15179" relation="synonym"/>
@@ -32600,7 +32600,7 @@
     <declension number="plural" text="sackings"/>
     <link id="12911" relation="synonym"/>
     <link id="13035" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
     <link id="27547" relation="synonym"/>
   </word>
   <word id="25418">
@@ -32633,7 +32633,7 @@
     <link id="18095" relation="related"/>
     <link id="14749" relation="related"/>
     <link id="13726" relation="related"/>
-    <link id="30889" relation="synonym"/>
+    <link id="30889" relation="related"/>
   </word>
   <word id="25469">
     <property type="nature" value="common noun"/>
@@ -32646,7 +32646,7 @@
     <declension number="singular" text="saltation"/>
     <declension number="plural" text="saltations"/>
     <link id="8919" relation="synonym"/>
-    <link id="30893" relation="synonym"/>
+    <link id="30893" relation="related"/>
   </word>
   <word id="25487">
     <property type="nature" value="common noun"/>
@@ -32723,7 +32723,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="sarcasm"/>
     <declension number="plural" text="sarcasms"/>
-    <link id="30773" relation="synonym"/>
+    <link id="30773" relation="related"/>
     <link id="25584" relation="synonym"/>
   </word>
   <word id="25562">
@@ -33134,7 +33134,7 @@
     <declension number="plural" text="scuttles"/>
     <link id="17337" relation="synonym"/>
     <link id="19877" relation="synonym"/>
-    <link id="30857" relation="synonym"/>
+    <link id="30857" relation="related"/>
   </word>
   <word id="25844">
     <property type="nature" value="common noun"/>
@@ -33184,7 +33184,7 @@
     <declension number="singular" text="secretion"/>
     <declension number="plural" text="secretions"/>
     <link id="7929" relation="antonym"/>
-    <link id="30765" relation="synonym"/>
+    <link id="30765" relation="related"/>
     <link id="11497" relation="synonym"/>
     <link id="17238" relation="synonym"/>
     <link id="27870" relation="synonym"/>
@@ -33281,7 +33281,7 @@
     <declension number="plural" text="seizures"/>
     <link id="8111" relation="synonym"/>
     <link id="8416" relation="synonym"/>
-    <link id="30766" relation="synonym"/>
+    <link id="30766" relation="related"/>
     <link id="11580" relation="synonym"/>
     <link id="29638" relation="synonym"/>
   </word>
@@ -33355,7 +33355,7 @@
     <link id="12794" relation="synonym"/>
     <link id="26070" relation="synonym"/>
     <link id="12740" relation="synonym"/>
-    <link id="30890" relation="synonym"/>
+    <link id="30890" relation="related"/>
   </word>
   <word id="25986">
     <property type="nature" value="common noun"/>
@@ -33381,14 +33381,14 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="sepulcher"/>
     <declension number="plural" text="sepulchers"/>
-    <link id="6615" relation="synonym"/>
+    <link id="6615" relation="related"/>
   </word>
   <word id="26002">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="sepulture"/>
     <declension number="plural" text="sepultures"/>
     <link id="9879" relation="synonym"/>
-    <link id="6615" relation="synonym"/>
+    <link id="6615" relation="related"/>
   </word>
   <word id="26005">
     <property type="nature" value="common noun"/>
@@ -33516,7 +33516,7 @@
     <declension number="singular" text="shade"/>
     <declension number="plural" text="shades"/>
     <link id="8080" relation="synonym"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="25867" relation="synonym"/>
     <link id="8548" relation="synonym"/>
     <link id="26969" relation="synonym"/>
@@ -33529,7 +33529,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="shaking"/>
     <declension number="plural" text="shakings"/>
-    <link id="30865" relation="synonym"/>
+    <link id="30865" relation="related"/>
     <link id="11534" relation="synonym"/>
     <link id="7534" relation="synonym"/>
     <link id="13446" relation="synonym"/>
@@ -33591,7 +33591,7 @@
     <declension number="plural" text="sheens"/>
     <link id="19637" relation="synonym"/>
     <link id="27083" relation="synonym"/>
-    <link id="30869" relation="synonym"/>
+    <link id="30869" relation="related"/>
   </word>
   <word id="26162">
     <property type="nature" value="common noun"/>
@@ -33669,7 +33669,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="shivering"/>
     <declension number="plural" text="shiverings"/>
-    <link id="30865" relation="synonym"/>
+    <link id="30865" relation="related"/>
   </word>
   <word id="26243">
     <property type="nature" value="common noun"/>
@@ -33722,7 +33722,7 @@
     <declension number="plural" text="shoulders"/>
     <link id="14359" relation="related"/>
     <link id="26310" relation="related"/>
-    <link id="30747" relation="synonym"/>
+    <link id="30747" relation="related"/>
   </word>
   <word id="26290">
     <property type="nature" value="common noun"/>
@@ -33763,7 +33763,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="shudder"/>
     <declension number="plural" text="shudders"/>
-    <link id="30865" relation="synonym"/>
+    <link id="30865" relation="related"/>
     <link id="24115" relation="synonym"/>
   </word>
   <word id="26323">
@@ -33810,7 +33810,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="siesta"/>
     <declension number="plural" text="siestas"/>
-    <link id="38" relation="synonym"/>
+    <link id="38" relation="related"/>
   </word>
   <word id="26358">
     <property type="nature" value="common noun"/>
@@ -34001,7 +34001,7 @@
     <link id="26467" relation="synonym"/>
     <link id="10965" relation="synonym"/>
     <link id="23526" relation="synonym"/>
-    <link id="30894" relation="synonym"/>
+    <link id="30894" relation="related"/>
   </word>
   <word id="26496">
     <property type="nature" value="common noun"/>
@@ -34124,7 +34124,7 @@
     <declension number="singular" text="slope"/>
     <declension number="plural" text="slopes"/>
     <link id="12945" relation="synonym"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
     <link id="17888" relation="synonym"/>
     <link id="26563" relation="synonym"/>
   </word>
@@ -34147,7 +34147,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="slump"/>
     <declension number="plural" text="slumps"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
     <link id="12909" relation="synonym"/>
   </word>
   <word id="26633">
@@ -34411,8 +34411,8 @@
     <declension number="plural" text="sources"/>
     <link id="8975" relation="synonym"/>
     <link id="15603" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
-    <link id="30893" relation="synonym"/>
+    <link id="30856" relation="related"/>
+    <link id="30893" relation="related"/>
   </word>
   <word id="26893">
     <property type="nature" value="common noun"/>
@@ -34462,7 +34462,7 @@
     <declension number="singular" text="specie"/>
     <declension number="plural" text="species"/>
     <link id="12947" relation="synonym"/>
-    <link id="6683" relation="synonym"/>
+    <link id="6683" relation="related"/>
     <link id="21120" relation="synonym"/>
   </word>
   <word id="26963">
@@ -34682,7 +34682,7 @@
     <declension number="plural" text="spoliations"/>
     <link id="12911" relation="synonym"/>
     <link id="24355" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
   </word>
   <word id="27100">
     <property type="nature" value="common noun"/>
@@ -35071,7 +35071,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="stratagem"/>
     <declension number="plural" text="stratagems"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="15027" relation="synonym"/>
     <link id="15179" relation="synonym"/>
     <link id="25374" relation="synonym"/>
@@ -35090,7 +35090,7 @@
     <declension number="plural" text="streamlets"/>
     <link id="12130" relation="synonym"/>
     <link id="25181" relation="synonym"/>
-    <link id="30857" relation="synonym"/>
+    <link id="30857" relation="related"/>
   </word>
   <word id="27534">
     <property type="nature" value="common noun"/>
@@ -35153,7 +35153,7 @@
     <declension number="singular" text="structure"/>
     <declension number="plural" text="structures"/>
     <link id="9817" relation="synonym"/>
-    <link id="69" relation="synonym"/>
+    <link id="69" relation="related"/>
     <link id="28510" relation="synonym"/>
   </word>
   <word id="27568">
@@ -35199,9 +35199,9 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="style"/>
     <declension number="plural" text="styles"/>
-    <link id="30773" relation="synonym"/>
-    <link id="90" relation="synonym"/>
-    <link id="6683" relation="synonym"/>
+    <link id="30773" relation="related"/>
+    <link id="90" relation="related"/>
+    <link id="6683" relation="related"/>
     <link id="30001" relation="synonym"/>
     <link id="8" relation="synonym"/>
     <link id="27800" relation="related"/>
@@ -35343,7 +35343,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="subterfuge"/>
     <declension number="plural" text="subterfuges"/>
-    <link id="6370" relation="synonym"/>
+    <link id="6370" relation="related"/>
     <link id="14603" relation="synonym"/>
     <link id="23624" relation="synonym"/>
   </word>
@@ -35358,13 +35358,13 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="subvention"/>
     <declension number="plural" text="subventions"/>
-    <link id="75" relation="synonym"/>
+    <link id="75" relation="related"/>
   </word>
   <word id="27723">
     <property type="nature" value="common noun"/>
     <declension number="singular" text="subversion"/>
     <declension number="plural" text="subversions"/>
-    <link id="30785" relation="synonym"/>
+    <link id="30785" relation="related"/>
     <link id="26222" relation="synonym"/>
   </word>
   <word id="27731">
@@ -35451,7 +35451,7 @@
     <declension number="singular" text="suite"/>
     <declension number="plural" text="suites"/>
     <link id="14439" relation="synonym"/>
-    <link id="6555" relation="synonym"/>
+    <link id="6555" relation="related"/>
     <link id="24983" relation="synonym"/>
     <link id="8423" relation="synonym"/>
   </word>
@@ -35757,7 +35757,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="swelling"/>
     <declension number="plural" text="swellings"/>
-    <link id="30903" relation="synonym"/>
+    <link id="30903" relation="related"/>
     <link id="23768" relation="synonym"/>
     <link id="23864" relation="synonym"/>
     <link id="21327" relation="synonym"/>
@@ -35779,7 +35779,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="swinging"/>
     <declension number="plural" text="swingings"/>
-    <link id="30905" relation="synonym"/>
+    <link id="30905" relation="related"/>
     <link id="21820" relation="synonym"/>
     <link id="29871" relation="synonym"/>
   </word>
@@ -36141,7 +36141,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="terret"/>
     <declension number="plural" text="terrets"/>
-    <link id="30855" relation="synonym"/>
+    <link id="30855" relation="related"/>
   </word>
   <word id="28482">
     <property type="nature" value="common noun"/>
@@ -36531,7 +36531,7 @@
     <link id="10382" relation="synonym"/>
     <link id="10976" relation="synonym"/>
     <link id="13563" relation="synonym"/>
-    <link id="30856" relation="synonym"/>
+    <link id="30856" relation="related"/>
   </word>
   <word id="28917">
     <property type="nature" value="common noun"/>
@@ -36584,7 +36584,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="trance"/>
     <declension number="plural" text="trances"/>
-    <link id="38" relation="synonym"/>
+    <link id="38" relation="related"/>
   </word>
   <word id="28953">
     <property type="nature" value="common noun"/>
@@ -36845,7 +36845,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="trivet"/>
     <declension number="plural" text="trivets"/>
-    <link id="30894" relation="synonym"/>
+    <link id="30894" relation="related"/>
   </word>
   <word id="29202">
     <property type="nature" value="common noun"/>
@@ -37096,7 +37096,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="ulceration"/>
     <declension number="plural" text="ulcerations"/>
-    <link id="6958" relation="synonym"/>
+    <link id="6958" relation="related"/>
   </word>
   <word id="29438">
     <property type="nature" value="common noun"/>
@@ -37206,7 +37206,7 @@
     <declension number="singular" text="unrestraint"/>
     <declension number="plural" text="unrestraints"/>
     <link id="24324" relation="synonym"/>
-    <link id="30905" relation="synonym"/>
+    <link id="30905" relation="related"/>
     <link id="15665" relation="synonym"/>
   </word>
   <word id="29569">
@@ -37491,7 +37491,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="venture"/>
     <declension number="plural" text="ventures"/>
-    <link id="30774" relation="synonym"/>
+    <link id="30774" relation="related"/>
   </word>
   <word id="29794">
     <property type="nature" value="common noun"/>
@@ -37790,7 +37790,7 @@
     <declension number="singular" text="virtue"/>
     <declension number="plural" text="virtues"/>
     <link id="14649" relation="synonym"/>
-    <link id="6605" relation="synonym"/>
+    <link id="6605" relation="related"/>
     <link id="24577" relation="synonym"/>
   </word>
   <word id="29957">
@@ -37824,7 +37824,7 @@
     <link id="17987" relation="synonym"/>
     <link id="22701" relation="synonym"/>
     <link id="23245" relation="synonym"/>
-    <link id="84" relation="synonym"/>
+    <link id="84" relation="related"/>
     <link id="12906" relation="synonym"/>
   </word>
   <word id="29983">
@@ -37864,7 +37864,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="vogue"/>
     <declension number="plural" text="vogues"/>
-    <link id="90" relation="synonym"/>
+    <link id="90" relation="related"/>
     <link id="27593" relation="synonym"/>
   </word>
   <word id="30003">
@@ -38167,7 +38167,7 @@
     <property type="nature" value="common noun"/>
     <declension number="singular" text="wheal"/>
     <declension number="plural" text="wheals"/>
-    <link id="79" relation="synonym"/>
+    <link id="79" relation="related"/>
   </word>
   <word id="30295">
     <property type="nature" value="common noun"/>
@@ -38660,7 +38660,7 @@
     <declension tense="past" text="abode"/>
     <declension tense="participle" text="abode"/>
     <link id="30783" relation="synonym"/>
-    <link id="43" relation="synonym"/>
+    <link id="43" relation="related"/>
     <link id="37" relation="synonym"/>
     <link id="30894" relation="synonym"/>
   </word>
@@ -38689,7 +38689,7 @@
     <declension tense="past" text="bore"/>
     <declension tense="participle" text="born"/>
     <link id="30758" relation="synonym"/>
-    <link id="26278" relation="synonym"/>
+    <link id="26278" relation="related"/>
     <link id="30894" relation="synonym"/>
   </word>
   <word id="30748">
@@ -38706,8 +38706,8 @@
     <link id="30899" relation="synonym"/>
     <link id="30845" relation="synonym"/>
     <link id="30843" relation="synonym"/>
-    <link id="23967" relation="synonym"/>
-    <link id="7091" relation="synonym"/>
+    <link id="23967" relation="related"/>
+    <link id="7091" relation="related"/>
   </word>
   <word id="30749">
     <property type="nature" value="verb"/>
@@ -38743,12 +38743,12 @@
     <declension person="3" tense="present" text="bends"/>
     <declension tense="past" text="bent"/>
     <declension tense="participle" text="bent"/>
-    <link id="12720" relation="synonym"/>
-    <link id="12377" relation="synonym"/>
-    <link id="9115" relation="synonym"/>
-    <link id="11271" relation="synonym"/>
-    <link id="15323" relation="synonym"/>
-    <link id="17916" relation="synonym"/>
+    <link id="12720" relation="related"/>
+    <link id="12377" relation="related"/>
+    <link id="9115" relation="related"/>
+    <link id="11271" relation="related"/>
+    <link id="15323" relation="related"/>
+    <link id="17916" relation="related"/>
     <link id="30893" relation="synonym"/>
   </word>
   <word id="30754">
@@ -38784,9 +38784,9 @@
     <declension tense="past" text="bred"/>
     <declension tense="participle" text="bred"/>
     <link id="30747" relation="synonym"/>
-    <link id="14831" relation="synonym"/>
-    <link id="19379" relation="synonym"/>
-    <link id="22460" relation="synonym"/>
+    <link id="14831" relation="related"/>
+    <link id="19379" relation="related"/>
+    <link id="22460" relation="related"/>
   </word>
   <word id="30759">
     <property type="nature" value="verb"/>
@@ -38857,8 +38857,8 @@
     <link id="46" relation="synonym"/>
     <link id="30880" relation="synonym"/>
     <link id="30868" relation="synonym"/>
-    <link id="13993" relation="synonym"/>
-    <link id="25874" relation="synonym"/>
+    <link id="13993" relation="related"/>
+    <link id="25874" relation="related"/>
   </word>
   <word id="30766">
     <property type="nature" value="verb"/>
@@ -38870,9 +38870,9 @@
     <declension person="3" tense="present" text="catchs"/>
     <declension tense="past" text="caught"/>
     <declension tense="participle" text="caught"/>
-    <link id="25916" relation="synonym"/>
-    <link id="8111" relation="synonym"/>
-    <link id="16960" relation="synonym"/>
+    <link id="25916" relation="related"/>
+    <link id="8111" relation="related"/>
+    <link id="16960" relation="related"/>
     <link id="30906" relation="synonym"/>
   </word>
   <word id="30768">
@@ -38921,12 +38921,12 @@
     <link id="30840" relation="synonym"/>
     <link id="30867" relation="synonym"/>
     <link id="30866" relation="synonym"/>
-    <link id="17880" relation="synonym"/>
-    <link id="25558" relation="synonym"/>
-    <link id="22316" relation="synonym"/>
-    <link id="18722" relation="synonym"/>
-    <link id="27593" relation="synonym"/>
-    <link id="14259" relation="synonym"/>
+    <link id="17880" relation="related"/>
+    <link id="25558" relation="related"/>
+    <link id="22316" relation="related"/>
+    <link id="18722" relation="related"/>
+    <link id="27593" relation="related"/>
+    <link id="14259" relation="related"/>
   </word>
   <word id="30774">
     <property type="nature" value="verb"/>
@@ -38938,10 +38938,10 @@
     <declension person="3" tense="present" text="dares"/>
     <declension tense="past" text="durst"/>
     <declension tense="participle" text="dared"/>
-    <link id="6391" relation="synonym"/>
-    <link id="12707" relation="synonym"/>
-    <link id="23874" relation="synonym"/>
-    <link id="29792" relation="synonym"/>
+    <link id="6391" relation="related"/>
+    <link id="12707" relation="related"/>
+    <link id="23874" relation="related"/>
+    <link id="29792" relation="related"/>
   </word>
   <word id="30775">
     <property type="nature" value="verb"/>
@@ -39003,9 +39003,9 @@
     <declension tense="past" text="drank"/>
     <declension tense="participle" text="drunk"/>
     <link id="18" relation="synonym"/>
-    <link id="9069" relation="synonym"/>
-    <link id="23412" relation="synonym"/>
-    <link id="23409" relation="synonym"/>
+    <link id="9069" relation="related"/>
+    <link id="23412" relation="related"/>
+    <link id="23409" relation="related"/>
   </word>
   <word id="30782">
     <property type="nature" value="verb"/>
@@ -39029,7 +39029,7 @@
     <declension tense="past" text="dwelt"/>
     <declension tense="participle" text="dwelt"/>
     <link id="30745" relation="synonym"/>
-    <link id="43" relation="synonym"/>
+    <link id="43" relation="related"/>
     <link id="37" relation="synonym"/>
   </word>
   <word id="30784">
@@ -39056,18 +39056,18 @@
     <declension tense="participle" text="fallen"/>
     <link id="70" relation="synonym"/>
     <link id="90" relation="synonym"/>
-    <link id="12945" relation="synonym"/>
-    <link id="11291" relation="synonym"/>
-    <link id="12665" relation="synonym"/>
-    <link id="12909" relation="synonym"/>
-    <link id="26631" relation="synonym"/>
-    <link id="9982" relation="synonym"/>
-    <link id="26616" relation="synonym"/>
-    <link id="23834" relation="synonym"/>
-    <link id="13643" relation="synonym"/>
-    <link id="27723" relation="synonym"/>
-    <link id="8519" relation="synonym"/>
-    <link id="13299" relation="synonym"/>
+    <link id="12945" relation="related"/>
+    <link id="11291" relation="related"/>
+    <link id="12665" relation="related"/>
+    <link id="12909" relation="related"/>
+    <link id="26631" relation="related"/>
+    <link id="9982" relation="related"/>
+    <link id="26616" relation="related"/>
+    <link id="23834" relation="related"/>
+    <link id="13643" relation="related"/>
+    <link id="27723" relation="related"/>
+    <link id="8519" relation="related"/>
+    <link id="13299" relation="related"/>
     <link id="30875" relation="synonym"/>
   </word>
   <word id="30787">
@@ -39173,7 +39173,7 @@
     <declension tense="past" text="got"/>
     <declension tense="participle" text="got"/>
     <link id="30927" relation="synonym"/>
-    <link id="6884" relation="synonym"/>
+    <link id="6884" relation="related"/>
   </word>
   <word id="30803">
     <property type="nature" value="verb"/>
@@ -39206,8 +39206,8 @@
     <declension person="3" tense="present" text="grinds"/>
     <declension tense="past" text="ground"/>
     <declension tense="participle" text="ground"/>
-    <link id="16538" relation="synonym"/>
-    <link id="23975" relation="synonym"/>
+    <link id="16538" relation="related"/>
+    <link id="23975" relation="related"/>
   </word>
   <word id="30806">
     <property type="nature" value="verb"/>
@@ -39231,7 +39231,7 @@
     <declension person="3" tense="present" text="hangs"/>
     <declension tense="past" text="hung"/>
     <declension tense="participle" text="hung"/>
-    <link id="8255" relation="synonym"/>
+    <link id="8255" relation="related"/>
   </word>
   <word id="30808">
     <property type="nature" value="verb"/>
@@ -39302,7 +39302,7 @@
     <declension person="3" tense="present" text="hurts"/>
     <declension tense="past" text="hurt"/>
     <declension tense="participle" text="hurt"/>
-    <link id="13025" relation="synonym"/>
+    <link id="13025" relation="related"/>
   </word>
   <word id="30814">
     <property type="nature" value="verb"/>
@@ -39359,7 +39359,7 @@
     <declension tense="past" text="leaped"/>
     <declension tense="participle" text="leaped"/>
     <link id="30893" relation="synonym"/>
-    <link id="10184" relation="synonym"/>
+    <link id="10184" relation="related"/>
   </word>
   <word id="30821">
     <property type="nature" value="verb"/>
@@ -39394,7 +39394,7 @@
     <declension person="3" tense="present" text="lets"/>
     <declension tense="past" text="let"/>
     <declension tense="participle" text="let"/>
-    <link id="17266" relation="synonym"/>
+    <link id="17266" relation="related"/>
   </word>
   <word id="30825">
     <property type="nature" value="verb"/>
@@ -39437,13 +39437,13 @@
     <declension person="3" tense="present" text="means"/>
     <declension tense="past" text="meant"/>
     <declension tense="participle" text="meant"/>
-    <link id="6887" relation="synonym"/>
-    <link id="6883" relation="synonym"/>
-    <link id="6775" relation="synonym"/>
-    <link id="7002" relation="synonym"/>
-    <link id="6783" relation="synonym"/>
-    <link id="6808" relation="synonym"/>
-    <link id="20139" relation="synonym"/>
+    <link id="6887" relation="related"/>
+    <link id="6883" relation="related"/>
+    <link id="6775" relation="related"/>
+    <link id="7002" relation="related"/>
+    <link id="6783" relation="related"/>
+    <link id="6808" relation="related"/>
+    <link id="20139" relation="related"/>
   </word>
   <word id="30830">
     <property type="nature" value="verb"/>
@@ -39455,7 +39455,7 @@
     <declension person="3" tense="present" text="meets"/>
     <declension tense="past" text="met"/>
     <declension tense="participle" text="met"/>
-    <link id="6885" relation="synonym"/>
+    <link id="6885" relation="related"/>
   </word>
   <word id="30840">
     <property type="nature" value="verb"/>
@@ -39478,7 +39478,7 @@
     <declension tense="past" text="outdid"/>
     <declension tense="participle" text="outdone"/>
     <link id="30748" relation="synonym"/>
-    <link id="13422" relation="synonym"/>
+    <link id="13422" relation="related"/>
   </word>
   <word id="30845">
     <property type="nature" value="verb"/>
@@ -39502,17 +39502,17 @@
     <declension person="3" tense="present" text="pays"/>
     <declension tense="past" text="paid"/>
     <declension tense="participle" text="paid"/>
-    <link id="21391" relation="synonym"/>
+    <link id="21391" relation="related"/>
     <link id="18" relation="synonym"/>
-    <link id="11451" relation="synonym"/>
-    <link id="24792" relation="synonym"/>
-    <link id="24545" relation="synonym"/>
-    <link id="24895" relation="synonym"/>
-    <link id="14132" relation="synonym"/>
-    <link id="17397" relation="synonym"/>
-    <link id="25059" relation="synonym"/>
-    <link id="7693" relation="synonym"/>
-    <link id="22673" relation="synonym"/>
+    <link id="11451" relation="related"/>
+    <link id="24792" relation="related"/>
+    <link id="24545" relation="related"/>
+    <link id="24895" relation="related"/>
+    <link id="14132" relation="related"/>
+    <link id="17397" relation="related"/>
+    <link id="25059" relation="related"/>
+    <link id="7693" relation="related"/>
+    <link id="22673" relation="related"/>
   </word>
   <word id="30849">
     <property type="nature" value="verb"/>
@@ -39571,17 +39571,17 @@
     <declension person="3" tense="present" text="rings"/>
     <declension tense="past" text="rang"/>
     <declension tense="participle" text="rung"/>
-    <link id="16561" relation="synonym"/>
-    <link id="16146" relation="synonym"/>
-    <link id="28463" relation="synonym"/>
-    <link id="19887" relation="synonym"/>
-    <link id="7935" relation="synonym"/>
-    <link id="7936" relation="synonym"/>
+    <link id="16561" relation="related"/>
+    <link id="16146" relation="related"/>
+    <link id="28463" relation="related"/>
+    <link id="19887" relation="related"/>
+    <link id="7935" relation="related"/>
+    <link id="7936" relation="related"/>
     <link id="26374" relation="related"/>
     <link id="10073" relation="related"/>
-    <link id="8202" relation="synonym"/>
-    <link id="11100" relation="synonym"/>
-    <link id="11960" relation="synonym"/>
+    <link id="8202" relation="related"/>
+    <link id="11100" relation="related"/>
+    <link id="11960" relation="related"/>
   </word>
   <word id="30856">
     <property type="nature" value="verb"/>
@@ -39597,14 +39597,14 @@
     <link id="30903" relation="synonym"/>
     <link id="30806" relation="synonym"/>
     <link id="30893" relation="synonym"/>
-    <link id="8306" relation="synonym"/>
-    <link id="26885" relation="synonym"/>
-    <link id="8975" relation="synonym"/>
-    <link id="8109" relation="synonym"/>
-    <link id="8465" relation="synonym"/>
-    <link id="14032" relation="synonym"/>
-    <link id="18870" relation="synonym"/>
-    <link id="28891" relation="synonym"/>
+    <link id="8306" relation="related"/>
+    <link id="26885" relation="related"/>
+    <link id="8975" relation="related"/>
+    <link id="8109" relation="related"/>
+    <link id="8465" relation="related"/>
+    <link id="14032" relation="related"/>
+    <link id="18870" relation="related"/>
+    <link id="28891" relation="related"/>
   </word>
   <word id="30857">
     <property type="nature" value="verb"/>
@@ -39618,12 +39618,12 @@
     <declension tense="participle" text="run"/>
     <link id="30884" relation="synonym"/>
     <link id="30791" relation="synonym"/>
-    <link id="25366" relation="synonym"/>
-    <link id="24846" relation="synonym"/>
-    <link id="23614" relation="synonym"/>
-    <link id="27522" relation="synonym"/>
-    <link id="25181" relation="synonym"/>
-    <link id="25834" relation="synonym"/>
+    <link id="25366" relation="related"/>
+    <link id="24846" relation="related"/>
+    <link id="23614" relation="related"/>
+    <link id="27522" relation="related"/>
+    <link id="25181" relation="related"/>
+    <link id="25834" relation="related"/>
   </word>
   <word id="30858">
     <property type="nature" value="verb"/>
@@ -39660,9 +39660,9 @@
     <declension person="3" tense="present" text="sells"/>
     <declension tense="past" text="sold"/>
     <declension tense="participle" text="sold"/>
-    <link id="17821" relation="synonym"/>
-    <link id="12609" relation="synonym"/>
-    <link id="15654" relation="synonym"/>
+    <link id="17821" relation="related"/>
+    <link id="12609" relation="related"/>
+    <link id="15654" relation="related"/>
   </word>
   <word id="30862">
     <property type="nature" value="verb"/>
@@ -39685,10 +39685,10 @@
     <declension tense="past" text="set"/>
     <declension tense="participle" text="set"/>
     <link id="30849" relation="synonym"/>
-    <link id="82" relation="synonym"/>
-    <link id="6549" relation="synonym"/>
-    <link id="11100" relation="synonym"/>
-    <link id="11960" relation="synonym"/>
+    <link id="82" relation="related"/>
+    <link id="6549" relation="related"/>
+    <link id="11100" relation="related"/>
+    <link id="11960" relation="related"/>
   </word>
   <word id="30865">
     <property type="nature" value="verb"/>
@@ -39699,9 +39699,9 @@
     <declension person="3" tense="present" text="shakes"/>
     <declension tense="past" text="shook"/>
     <declension tense="participle" text="shaken"/>
-    <link id="26235" relation="synonym"/>
-    <link id="26105" relation="synonym"/>
-    <link id="26312" relation="synonym"/>
+    <link id="26235" relation="related"/>
+    <link id="26105" relation="related"/>
+    <link id="26312" relation="related"/>
   </word>
   <word id="30866">
     <property type="nature" value="verb"/>
@@ -39736,8 +39736,8 @@
     <declension tense="participle" text="shed"/>
     <link id="30765" relation="synonym"/>
     <link id="30892" relation="synonym"/>
-    <link id="21885" relation="synonym"/>
-    <link id="19163" relation="synonym"/>
+    <link id="21885" relation="related"/>
+    <link id="19163" relation="related"/>
   </word>
   <word id="30869">
     <property type="nature" value="verb"/>
@@ -39749,9 +39749,9 @@
     <declension person="3" tense="present" text="shines"/>
     <declension tense="past" text="shone"/>
     <declension tense="participle" text="shone"/>
-    <link id="19637" relation="synonym"/>
-    <link id="26158" relation="synonym"/>
-    <link id="19349" relation="synonym"/>
+    <link id="19637" relation="related"/>
+    <link id="26158" relation="related"/>
+    <link id="19349" relation="related"/>
   </word>
   <word id="30870">
     <property type="nature" value="verb"/>
@@ -39797,7 +39797,7 @@
     <declension person="3" tense="present" text="shuts"/>
     <declension tense="past" text="shut"/>
     <declension tense="participle" text="shut"/>
-    <link id="50" relation="synonym"/>
+    <link id="50" relation="related"/>
   </word>
   <word id="30875">
     <property type="nature" value="verb"/>
@@ -39903,7 +39903,7 @@
     <declension person="3" tense="present" text="spits"/>
     <declension tense="past" text="spat"/>
     <declension tense="participle" text="spat"/>
-    <link id="25468" relation="synonym"/>
+    <link id="25468" relation="related"/>
   </word>
   <word id="30890">
     <property type="nature" value="verb"/>
@@ -39916,10 +39916,10 @@
     <declension tense="past" text="split"/>
     <declension tense="participle" text="split"/>
     <link id="30763" relation="synonym"/>
-    <link id="15242" relation="synonym"/>
-    <link id="25125" relation="synonym"/>
-    <link id="25985" relation="synonym"/>
-    <link id="25371" relation="synonym"/>
+    <link id="15242" relation="related"/>
+    <link id="25125" relation="related"/>
+    <link id="25985" relation="related"/>
+    <link id="25371" relation="related"/>
   </word>
   <word id="30892">
     <property type="nature" value="verb"/>
@@ -39931,7 +39931,7 @@
     <declension tense="past" text="spread"/>
     <declension tense="participle" text="spread"/>
     <link id="30868" relation="synonym"/>
-    <link id="14812" relation="synonym"/>
+    <link id="14812" relation="related"/>
   </word>
   <word id="30893">
     <property type="nature" value="verb"/>
@@ -39949,9 +39949,9 @@
     <link id="30870" relation="synonym"/>
     <link id="30793" relation="synonym"/>
     <link id="30751" relation="synonym"/>
-    <link id="25481" relation="synonym"/>
-    <link id="15603" relation="synonym"/>
-    <link id="26885" relation="synonym"/>
+    <link id="25481" relation="related"/>
+    <link id="15603" relation="related"/>
+    <link id="26885" relation="related"/>
   </word>
   <word id="30894">
     <property type="nature" value="verb"/>
@@ -39965,11 +39965,11 @@
     <link id="30747" relation="synonym"/>
     <link id="30745" relation="synonym"/>
     <link id="18" relation="synonym"/>
-    <link id="29172" relation="synonym"/>
-    <link id="26471" relation="synonym"/>
-    <link id="19484" relation="synonym"/>
-    <link id="24925" relation="synonym"/>
-    <link id="21729" relation="synonym"/>
+    <link id="29172" relation="related"/>
+    <link id="26471" relation="related"/>
+    <link id="19484" relation="related"/>
+    <link id="24925" relation="related"/>
+    <link id="21729" relation="related"/>
   </word>
   <word id="30895">
     <property type="nature" value="verb"/>
@@ -39980,7 +39980,7 @@
     <declension person="3" tense="present" text="steals"/>
     <declension tense="past" text="stole"/>
     <declension tense="participle" text="stolen"/>
-    <link id="9954" relation="synonym"/>
+    <link id="9954" relation="related"/>
     <link id="30772" relation="synonym"/>
     <link id="90" relation="synonym"/>
   </word>
@@ -40029,12 +40029,12 @@
     <declension tense="past" text="swelled"/>
     <declension tense="participle" text="swollen"/>
     <link id="30856" relation="synonym"/>
-    <link id="27979" relation="synonym"/>
-    <link id="8465" relation="synonym"/>
-    <link id="23864" relation="synonym"/>
-    <link id="9820" relation="synonym"/>
-    <link id="14032" relation="synonym"/>
-    <link id="6490" relation="synonym"/>
+    <link id="27979" relation="related"/>
+    <link id="8465" relation="related"/>
+    <link id="23864" relation="related"/>
+    <link id="9820" relation="related"/>
+    <link id="14032" relation="related"/>
+    <link id="6490" relation="related"/>
   </word>
   <word id="30905">
     <property type="nature" value="verb"/>
@@ -40045,8 +40045,8 @@
     <declension person="3" tense="present" text="swings"/>
     <declension tense="past" text="swung"/>
     <declension tense="participle" text="swung"/>
-    <link id="27996" relation="synonym"/>
-    <link id="29563" relation="synonym"/>
+    <link id="27996" relation="related"/>
+    <link id="29563" relation="related"/>
   </word>
   <word id="30906">
     <property type="nature" value="verb"/>
@@ -40059,7 +40059,7 @@
     <declension tense="past" text="took"/>
     <declension tense="participle" text="taken"/>
     <link id="79" relation="synonym"/>
-    <link id="21391" relation="synonym"/>
+    <link id="21391" relation="related"/>
     <link id="30766" relation="synonym"/>
     <link id="96" relation="synonym"/>
   </word>

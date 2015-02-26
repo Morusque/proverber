@@ -9,7 +9,7 @@ $proverbsDoc = new DOMDocument('1.0', 'utf-8');
 $proverbsDoc->Load($proverbsUrl);
 
 $question = Array();
-if (strlen($questionStr)>0) $question = explode(" ",$questionStr);
+if (isset($questionStr)) if (strlen($questionStr)>0) $question = explode(" ",$questionStr);
 
 $entirePool = Array();// XML array
 foreach ($dicoDoc->getElementsByTagName("word") as $word) {
