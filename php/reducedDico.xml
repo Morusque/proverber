@@ -1311,7 +1311,6 @@
     <link id="6052" relation="synonym"/>
     <link id="1770" relation="synonym"/>
     <link id="5575" relation="synonym"/>
-    <link id="5451" relation="synonym"/>
     <link id="257" relation="synonym"/>
   </word>
   <word id="333">
@@ -2118,7 +2117,6 @@
   <word id="2387">
     <property type="nature" value="adverb"/>
     <declension text="halfway"/>
-    <link id="5451" relation="synonym"/>
     <link id="2676" relation="synonym"/>
     <link id="3512" relation="synonym"/>
   </word>
@@ -2555,7 +2553,6 @@
     <property type="nature" value="adverb"/>
     <declension text="meanwhile"/>
     <link id="3455" relation="synonym"/>
-    <link id="5451" relation="synonym"/>
   </word>
   <word id="3512">
     <property type="nature" value="adverb"/>
@@ -3279,13 +3276,6 @@
   <word id="5450">
     <property type="nature" value="adverb"/>
     <declension text="that"/>
-  </word>
-  <word id="5451">
-    <property type="nature" value="adverb"/>
-    <declension text="the"/>
-    <link id="330" relation="synonym"/>
-    <link id="2387" relation="synonym"/>
-    <link id="3456" relation="synonym"/>
   </word>
   <word id="5454">
     <property type="nature" value="adverb"/>
